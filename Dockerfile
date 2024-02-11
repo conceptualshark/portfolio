@@ -1,7 +1,7 @@
 FROM python:3-alpine
 
 COPY . .
-RUN pip install -r /requirements.txt
+RUN pip install -r /docs/requirements.txt
 
 WORKDIR /docs
 
