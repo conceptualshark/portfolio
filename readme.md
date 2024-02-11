@@ -2,7 +2,7 @@
 [![build-and-publish](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/publish.yml) [![pages-build-deployment](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/pages/pages-build-deployment) ![Built with Markdown](https://img.shields.io/badge/Markdown-blue) ![Built with Mkdocs](https://img.shields.io/badge/Mkdocs-red)
 
 ## :zap: About
-I am a technical writer and editor with a background in software engineering and project management. This repository serves as a home for my portfolio and resume, and can be viewed live at [https://conceptualshark.github.io/](https://conceptualshark.github.io/). 
+I am a technical writer and editor with a background in software engineering and project management. This repository serves as a home for my portfolio and resume, and can be viewed live at [https://cisaac-portfolio.vercel.app/](https://cisaac-portfolio.vercel.app/). 
 
 This project is built using [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/), a static site generator. Pages are written in Markdown, customized using the Mkdocs configuration file and CSS overrides, and published using [Vercel](https://vercel.com//).
 
