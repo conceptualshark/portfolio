@@ -1,0 +1,92 @@
+site_name: Cole Isaac, Technical Writer
+repo_url: https://github.com/conceptualshark/conceptualshark.github.io
+repo_name: View this Repository
+
+# Themes 
+theme:
+  name: material
+  logo: /assets/images/logo.png
+  favicon: /assets/images/logo.png
+
+  palette: 
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Light Mode
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-7 
+        name: Dark Mode
+  features:
+    - content.code.copy
+    - navigation.expand
+plugins:
+  - search
+  - render_swagger
+  - glightbox
+  - open-in-new-tab
+  
+# Extensions 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - def_list
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+dev_addr: 0.0.0.0:8080
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/cole-isaac/
+    - icon: fontawesome/brands/github
+      link: https://github.com/conceptualshark
+    - icon: material/email
+      link: colegarbo@gmail.com
+      name: email
+copyright: Copyright &copy; 2023 Cole Isaac Garbo
+
+# CSS and JS overrides 
+extra_css:
+  - assets/css/overrides.css
+
+# Navigation 
+nav:
+  - About: index.md
+  - Resume: resume.md
+  - Portfolio:
+    - 'API Reference: Privacy Requests': portfolio/api-privacy-requests.md
+    - 'API Reference: Referrals': portfolio/api-referrals.md
+    - 'Article: Privacy Regulations': portfolio/article-privacy-regulations.md
+    - Installation Guide: portfolio/fides-installation-guide.md
+    - Release Newsletter: portfolio/release-newsletter.md
+    - Release Notes: portfolio/release-notes.md
+    - 'User Guide: Connectors': portfolio/guide-connectors.md
+    - 'User Guide: Privacy Center': portfolio/guide-privacy-center.md
+    - 'User Guide: SSL Certificates': portfolio/guide-ssl-certificates.md
+
+
+
+
+
+
+
