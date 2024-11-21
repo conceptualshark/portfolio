@@ -74,16 +74,16 @@ nav:
   - About: index.md
   - Resume: resume.md
   - Portfolio:
-    - 'API Reference: Privacy Requests': portfolio/api-privacy-requests.md
-    - 'API Reference: Referrals': portfolio/api-referrals.md
-    - 'Article: Privacy Regulations': portfolio/article-privacy-regulations.md
-    - Installation Guide: portfolio/fides-installation-guide.md
-    - Release Newsletter: portfolio/release-newsletter.md
-    - Release Notes: portfolio/release-notes.md
-    - 'User Guide: Connectors': portfolio/guide-connectors.md
-    - 'User Guide: Privacy Center': portfolio/guide-privacy-center.md
-    - 'User Guide: SSL Certificates': portfolio/guide-ssl-certificates.md
-
+    - Guides:
+        - Fides Installation: portfolio/fides-installation-guide.md
+        - 'Fides Privacy Center': portfolio/guide-privacy-center.md
+        - 'SSL Certificates': portfolio/guide-ssl-certificates.md
+    - References:
+        - 'Privacy Requests': portfolio/api-privacy-requests.md
+        - 'Referrals': portfolio/api-referrals.md
+        - 'App Connectors': portfolio/guide-connectors.md
+    - Concepts:
+        - 'Privacy Regulations': portfolio/article-privacy-regulations.md
 
 
 

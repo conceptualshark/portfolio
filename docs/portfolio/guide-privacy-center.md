@@ -2,18 +2,20 @@
 
 ## Summary
 
-The Fides suite of open-source privacy tools also included a configurable "Privacy Center:" a deployable webpage for quickly setting up legislation-compliant privacy actions and consent management. This guide walks through basic configuration options and settings.
+The [Fides](https://ethyca.com/) suite of open-source privacy tools also included a configurable "Privacy Center:" a packaged webpage for quickly setting up legislation-compliant privacy actions and consent management. The privacy center could be deployed during the Fides [installation process](./fides-installation-guide.md). This guide walks through basic configuration options and settings.
 
 ---
 
 ## Overview
 The Fides Privacy Center is a configurable webpage where users can request to access, update, or delete their data or update their consent preferences. The Privacy Center can be modified by creating and editing a configuration file, and is then deployable alongside your Fides implementation.
 
+For more information on installing and running the Privacy Center, see the Fides [installation guide](./fides-installation-guide.md#set-up-the-privacy-center-optional).
+
 ## Create the configuration file
 
 The Fides Privacy Center's text and actions are managed by a `config.json` file, which is located in your project's `/clients/app/config` directory. 
 
-1. Copy the `config.json` template located in [this repository](../assets/config.json).
+1. Copy the provided [`config.json`](../assets/config.json) template.
 2. Create a `config.json` in your project's `/clients/app/config` directory, and paste the contents of the template.
 
 Running the Privacy Center from this template will result in the following default webpage:
