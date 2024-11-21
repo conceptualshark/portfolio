@@ -1,17 +1,21 @@
-# API Documentation: Referrals
+# API Reference: Referrals
 
 ## Summary
-The following is a simplified version of design document for a set of endpoints. The related microservice handled the storage and retrieval of referred or rejected customer applications, known as Referrals. 
-    
+
+The following is a simplified version of design document for a set of endpoints. The related microservice handled the storage and retrieval of referred or rejected customer applications, known as Referrals.
+
 This document was created for internal use, education, and planning, and used for the ultimate creation of the REST service. It has been updated here to include interactive [Swagger documentation](#swagger-documentation), built using OpenAPI 3.0.
 
 ---
 
 ## Referral API
+
 All endpoints designed to create and return individual or multiple referrals.
 
 <div id="api" markdown>
+
 ### Create a new Referral
+
 | - | - |
 |---|---|
 | Method: | `POST` |
@@ -54,10 +58,11 @@ Add a new Referral to the database. Response will include a generated unique Ref
 ```
 
 ### Retrieve a Referral by ID
+
 | - | - |
 |---|---|
 | Method: | `GET` |
-| URL:	| `/referrals/{id}` |
+| URL: | `/referrals/{id}` |
 
 Returns a single Referral matching the provided ID.
 
@@ -89,12 +94,14 @@ Returns a single Referral matching the provided ID.
 ```
 
 ### Retrieve a list of Referrals
+
 |-|-|
 |--|--|
 | Method: | `GET` |
 | URL: | `/referrals?lastUpdateTime={lastUpdateTime}` |
 
 #### Query parameters
+
 `lastUpdateTime` **string**
 : A valid Golang datetime format, e.g. `YYYY-DD-MM HH:MM:SS`.
 
@@ -134,9 +141,11 @@ Returns a list of Referral objects created or updated since the provided `lastUp
    ]
 }
 ```
+
 </div>
 
 ### Response codes
+
 | Code | Definition |
 |---|---|
 | `201` | Success. The referral was created or retrieved successfully. |
@@ -144,4 +153,5 @@ Returns a list of Referral objects created or updated since the provided `lastUp
 | `500` | The server encountered an error while handling this request. |
 
 ## Swagger Documentation
+
 !!swagger referrals.json!!
