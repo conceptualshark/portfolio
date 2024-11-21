@@ -1,4 +1,4 @@
-# Article: Privacy Regulations
+# Concept Article: Privacy Regulations
 
 ## Summary
 
@@ -7,7 +7,8 @@ The privacy legislation landscape is evolving rapidly. This article represents a
 ---
 
 ## Overview
-On January 1, 2023, Virginia’s [Consumer Data Protection Act](https://lis.virginia.gov/cgi-bin/legp604.exe?211+sum+SB1392) (CDPA) and the [California Privacy Rights Act](https://iapp.org/media/pdf/resource_center/ca_privacy_rights_act_2020_ballot_initiative.pdf) (CPRA) will both go into effect. 
+
+On January 1, 2023, Virginia’s [Consumer Data Protection Act](https://lis.virginia.gov/cgi-bin/legp604.exe?211+sum+SB1392) (CDPA) and the [California Privacy Rights Act](https://iapp.org/media/pdf/resource_center/ca_privacy_rights_act_2020_ballot_initiative.pdf) (CPRA) will both go into effect.
 
 California's CPRA is an amendment to the CCPA, or California Consumer Privacy Act, passed in 2020, and is set to expand consumers’ privacy protections that were already established with the previous law. Virginia's CDPA borrows heavily from the original California Consumer Privacy Act -  before the CPRA amendments were voted in.
 
@@ -27,7 +28,7 @@ The specific opt-out requirements for each regulation are as follows:
 | “Sale” of personal information/data | **Under CPRA**, a sale relates to the sharing of information for monetary exchange, or an exchange of value.  <br><br> **Under CDPA**, a sale is exclusively for money. | YES | YES | 
 | Profiling | Under CDPA, **profiling** refers to automated decision-making about a user. | NO | YES | 
 
-### Consent requirements 
+### Consent requirements
 
 The specific consent requirements for each regulation are as follows:
 
@@ -38,12 +39,14 @@ The specific consent requirements for each regulation are as follows:
 
 
 ## Response
+
 In order to continue to enable your team to comprehensively implement users' consent preferences, Ethyca will be making a series of updates to the Consent Management experience to ensure you stay in compliance. These updates allow you to classify your collected data under multiple data categories, and enable users to opt in or out of data usages on your Consent Management page.
 
 Consent preference updates will now be stored for reporting and auditing purposes, and the latest preference will be reflected in a browser cookie. This will be available to you to start using January 1, 2023.
 
 
 ### Support in Ethyca Pro
+
 To ensure compliance with both CPRA and CPDA, Ethyca will provide enhancements to the current Consent Management experience:
 
 - Grouping systems into the categories of data they process (e.g. data, personal data, sensitive personal data) for necessary geographic regions (e.g. Virginia, California)
@@ -53,5 +56,5 @@ To ensure compliance with both CPRA and CPDA, Ethyca will provide enhancements t
 - Recording consent preference changes for reporting, auditing, and management
 
 ### Level of effort
-If your team has a privacy officer or engineer already comfortable working with Ethyca’s current Control Panel and Consent Management experience, the additional privacy settings are configurable in a matter of minutes. 
 
+If your team has a privacy officer or engineer already comfortable working with Ethyca’s current Control Panel and Consent Management experience, the additional privacy settings are configurable in a matter of minutes.

@@ -9,6 +9,7 @@ Creating this guide not only involved meeting with stakeholders to ensure accura
 ---
 
 ## Overview
+
 A production-ready instance of Fides can be deployed leveraging the cloud infrastructure your organization is most familiar with.
 
 Fully deployed, Fides consists of the following individual systems:
@@ -18,6 +19,7 @@ Fully deployed, Fides consists of the following individual systems:
 3. **Fides Webserver**: The main application, including the Admin UI and all API endpoints.
 
 ## Requirements
+
 The following minimum versions are required:
 
 - **PostgreSQL**: 12+
@@ -30,26 +32,28 @@ The following minimum versions are required:
 
 ## Set up the hosted database
 
-Fides uses an application database for persistent storage. Any hosted PostgreSQL database that meets the current [project requirements](#requirements) is acceptable, as long as it's accessible. 
+Fides uses an application database for persistent storage. Any hosted PostgreSQL database that meets the current [project requirements](#requirements) is acceptable, as long as it's accessible.
 
 Options include:
 
-* A managed PostgreSQL database services (e.g., AWS RDS, GCP Cloud SQL, Azure Database)
-* A self-hosted PostgreSQL Docker container with a persistent volume mount (e.g., a Kubernetes cluster)
-* A self-hosted PostgreSQL server (e.g., an EC2 server)
+- A managed PostgreSQL database services (e.g., AWS RDS, GCP Cloud SQL, Azure Database)
+- A self-hosted PostgreSQL Docker container with a persistent volume mount (e.g., a Kubernetes cluster)
+- A self-hosted PostgreSQL server (e.g., an EC2 server)
 
-!!! Tip 
+!!! Tip
     As long as your database is accessible by your Fides webserver, there is no need to expose it to the public internet.
 
 ### Configure your database
+
 Follow the documentation for the option of your choice to configure a production-grade PostgreSQL database. Once your database is created, take the following steps:
 
 1. Create a **unique user** for Fides to use to access the database.
 2. Assign your Fides user a secure password.
 3. Create a **database** for application storage.
-4. Keep track of your connection credentials for use in th enext step.
+4. Keep track of your connection credentials for use in the next step.
 
 ### Update your Fides configuration
+
 In the `[postgres]` section of your `fides.toml` configuration file, update the following values with those configured for your database:
 
 | Variable | Example | Description |
@@ -69,16 +73,18 @@ Any hosted Redis database that meets the current [project requirements](#require
 - A Docker [Redis](https://hub.docker.com/_/redis) container 
 - A managed service (e.g., AWS ElastiCache, GCP Memorystore, Azure Cache, Redis Cloud)
 
-!!! Tip 
+!!! Tip
     As long as your cache is accessible by your Fides webserver, there is no need to expose it to the public internet.
 
 ### Configure your cache
+
 Follow the documentation for the option of your choice to configure a production-grade Redis cache. Once your cache is created, take the following steps::
 
 1. Enable a password (via Redis [`AUTH`](https://redis.io/commands/auth)) to provide additional security.
 2. Keep track of your connection credentials for use in the next step.
 
 ### Update your Fides configuration
+
 In the `[redis]` section of your `fides.toml` configuration file, update the following values with those configured for your cache:
 
 | Variable | Example | Description |
@@ -91,25 +97,27 @@ In the `[redis]` section of your `fides.toml` configuration file, update the fol
 
 ## Set up the webserver
 
-The Fides webserver is a [FastAPI](https://fastapi.tiangolo.com/) application with a [Uvicorn](https://www.uvicorn.org/) server to handle requests. 
+The Fides webserver is a [FastAPI](https://fastapi.tiangolo.com/) application with a [Uvicorn](https://www.uvicorn.org/) server to handle requests.
 
 The host requirements for the webserver are:
 
-* A general purpose webserver (for example, in AWS EC2, a t2.small or larger)
-* Docker version 20.10.8 or newer
+- A general purpose webserver (for example, in AWS EC2, a t2.small or larger)
+- Docker version 20.10.8 or newer
 
 !!! Note
     The webserver has no persistent storage requirements. This is handled by the hosted database.
 
 ### Pull the docker image
+
 Run the following command to pull the latest image from Ethyca's [DockerHub](https://hub.docker.com/r/ethyca/fides):
 
-```
+```sh
 docker pull ethyca/fides
-``` 
+```
 
 ### Configure Fides
-A number of environment variables are required for a minimum working configuration. 
+
+A number of environment variables are required for a minimum working configuration.
 
 The configuration can be provided to your application through the following options:
 
@@ -117,7 +125,7 @@ The configuration can be provided to your application through the following opti
 - Provide individual variables with the `--env {VAR}` option
 - Directly configure your variables with your Docker host
 
-The following table represents the minimum required configuration: 
+The following table represents the minimum required configuration:
 
 | Config Variable | Example | Description |
 |---|---|---|
@@ -133,12 +141,11 @@ The following table represents the minimum required configuration:
 | `FIDES__REDIS__PORT` | 6379 | The port for your Redis server. |
 | `FIDES__REDIS__PASSWORD` | fidessecret | The password Fides will use to access Redis. |
 
-
 ### Start your server
 
 Once configured, start your server with the following command:
 
-```
+```sh
 docker run ethyca/fides -p 8080:8080
 ```
 
@@ -191,7 +198,7 @@ To test that your server is running, visit `http://{server_url}/health` in your 
 
 ```title="A healthy webserver response"
 {"webserver": "healthy", "database": "healthy", "cache": "healthy"}
-``` 
+```
 
 You can also visit the hosted UI at `http://{server_url}/`.
 
@@ -204,7 +211,7 @@ Ensure that Docker is running on your host, and satisfies the [minimum requireme
 
 Run the following command to pull the latest image from Ethyca's [DockerHub](https://hub.docker.com/r/ethyca/fides):
 
-```
+```sh
 docker pull ethyca/fides-privacy-center
 ```
 

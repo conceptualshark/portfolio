@@ -7,13 +7,14 @@ The [Fides](https://ethyca.com/) suite of open-source privacy tools also include
 ---
 
 ## Overview
+
 The Fides Privacy Center is a configurable webpage where users can request to access, update, or delete their data or update their consent preferences. The Privacy Center can be modified by creating and editing a configuration file, and is then deployable alongside your Fides implementation.
 
 For more information on installing and running the Privacy Center, see the Fides [installation guide](./fides-installation-guide.md#set-up-the-privacy-center-optional).
 
 ## Create the configuration file
 
-The Fides Privacy Center's text and actions are managed by a `config.json` file, which is located in your project's `/clients/app/config` directory. 
+The Fides Privacy Center's text and actions are managed by a `config.json` file, which is located in your project's `/clients/app/config` directory.
 
 1. Copy the provided [`config.json`](../assets/config.json) template.
 2. Create a `config.json` in your project's `/clients/app/config` directory, and paste the contents of the template.
@@ -47,6 +48,7 @@ Actions can be customized with the following fields:
 | `identity_inputs` | A list of personally identifiable information gathered to perform an action, and whether or not each item is required. Fides will use these inputs to find associated records. |
 
 ### Example access request
+
 The following action creates a tile in your Privacy Center with the title **Access your data**. This action requires the user to enter their email address to return the generated report, and uses the `default_access_policy` on associated data when submitted.
 
 ```json
@@ -89,21 +91,21 @@ The consent option page displays a list of your configured consent notices, and 
 
 | Field | Description |
 |---|---|
-| `title` | The user-facing title of the consent options page. | 
-| `description` | The user-facing description for the consent options page. | 
-| `description_subtext` | Any additional paragraphs of text to display on the consent options page. | 
+| `title` | The user-facing title of the consent options page. |
+| `description` | The user-facing description for the consent options page. |
+| `description_subtext` | Any additional paragraphs of text to display on the consent options page. |
 | `policy_key` | The key of the policy to run when the action is triggered. |
-| `consentOptions` | A list of consent notices that should appear on the page. | 
+| `consentOptions` | A list of consent notices that should appear on the page. |
 
 ### Individual consent options
 
-Individual consent options represent opt-in or opt-out user experiences, such as **Data Sharing and Sales** or **Newsletters and Emails**. 
+Individual consent options represent opt-in or opt-out user experiences, such as **Data Sharing and Sales** or **Newsletters and Emails**.
 
 Consent opions can be customized with the following fields:
 
 | Field | Description |
 |---|---|
-| `name` | The user-facing name of the consent option, i.e. `Data Sharing`. | 
+| `name` | The user-facing name of the consent option, i.e. `Data Sharing`. |
 | `description` | The user-facing description of the consent option. |
 | `url` | The URL where a user can view a descriptive consent notice. |
 | `default` | If this consent preference is enabled (`true`) or disabled (`false`) by default. |
@@ -114,7 +116,7 @@ Consent opions can be customized with the following fields:
 
 The following `consent` configuration creates a tile in the Privacy Center, a consent `page` titled **Manage your consent**, and a **Data Sales and Sharing** `consentOption` that is enabled (`true`) but default.
 
-```json 
+```json
     "includeConsent": true,
     "consent": {
         "button": {
@@ -157,12 +159,13 @@ The following `consent` configuration creates a tile in the Privacy Center, a co
 ```
 
 ## Configure appearance
- 
-The Privacy Center supports additional customization in the form of CSS overrides. To configure a custom appearance for the website, upload a CSS stylesheet named `config.css` to the `/privacy-center/config` directory of your project. 
+
+The Privacy Center supports additional customization in the form of CSS overrides. To configure a custom appearance for the website, upload a CSS stylesheet named `config.css` to the `/privacy-center/config` directory of your project.
 
 By default, Fides uses the [Chakra UI framework](https://chakra-ui.com/) to assist in styling.
 
 ### CSS override example
+
 In order to modify the heading text, Chakra has a default `chakra-heading` class style that is assigned to each header (h1, h2, h3, etc). The following offers two methods of modifying headers:
 
 ```css

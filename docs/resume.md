@@ -1,6 +1,6 @@
 # Cole Isaac, MSCS [Download :fontawesome-solid-file-pdf:](./assets/pdfs/garbo-cv.pdf){ .md-button .md-button--primary }
 
-A clear communicator with a passion for organization and analysis, culminating in documentation that is accurate, accessible, and effective. Dedicated to a docs-as-code philosophy to create, manage, and deploy documentation for modern platforms.
+A clear communicator with a passion for organization and analysis, culminating in documentation that is accurate, accessible, and effective. Employs a docs-as-code philosophy to create, manage, and deploy documentation for modern platforms.
 
 <div id="resume" markdown>
 ## Education
@@ -9,9 +9,11 @@ A clear communicator with a passion for organization and analysis, culminating i
 _Northeastern University • Boston, MA_
 
 ### Bachelor of Arts in History
+
 > _State University of New York at New Paltz • New Paltz, NY_
 
 ### Certificates
+
 > **Information Privacy Management Professional**  
 _International Association of Privacy Professionals_
 
@@ -22,58 +24,61 @@ _University of California, Los Angeles_
 _North Carolina State University_
 
 ## Technical Knowledge
+
 ### Language Proficiencies
-- :fontawesome-brands-markdown: Markdown and MDX
-- :fontawesome-brands-html5: HTML 
+
+- :fontawesome-brands-markdown: Markdown/MDX
+- :fontawesome-brands-html5: HTML
 - :fontawesome-brands-css3-alt: CSS
 - :simple-yaml: YAML
 - :material-code-json: JSON
 - :simple-javascript: Javascript
-- :simple-jquery: JQuery
 - :fontawesome-brands-node-js: Node
-- :simple-react: React 
-- :fontawesome-brands-vuejs: Vue
+- :simple-react: React
 - :fontawesome-brands-golang: Golang
 - :fontawesome-brands-java: Java
-- :simple-cplusplus: C/C++ 
+- :simple-cplusplus: C/C++
 - :fontawesome-brands-python: Python
 
 ### Skills, Systems & Tools
+
 - :simple-git: Git
 - :fontawesome-brands-jira: Jira/Issue Tracking
-- :fontawesome-brands-confluence: Confluence/CMS Platforms
-- :fontawesome-brands-github: Github
-- :octicons-logo-github-16: Github Pages
-- :simple-githubactions: Github Actions
+- :fontawesome-brands-github: Github Actions
 - :material-microsoft-azure-devops: DevOps Workflows
 - :simple-circleci: CI/CD Pipelines
-- :fontawesome-brands-docker: Docker
-- :simple-kubernetes: Kubernetes 
-- :material-typewriter: Diataxis
 - :simple-postman: Postman
+- :simple-openapiinitiative: Swagger/OpenAPI
+- :fontawesome-solid-cloud: Cloud Infrastructures
 - :simple-docusaurus: Docusaurus
 - :material-file-document: Mkdocs
 - :simple-hugo: Hugo
 - :simple-jekyll: Jekyll
-- :simple-openapiinitiative: Swagger/OpenAPI
 - :simple-vercel: Vercel
 - :simple-heroku: Heroku
 - :simple-netlify: Netlify
+- :octicons-logo-github-16: Github Pages
+- :simple-kubernetes: Kubernetes/Helm
+- :fontawesome-brands-docker: Docker
 - :fontawesome-brands-aws: AWS
-- :material-api: API Documentation
-- :simple-semver: Release Notes
+- :material-code-equal: Docs-as-Code/DocOps
+- :material-typewriter: Diataxis
+- :material-api: API References
 - :fontawesome-brands-figma: Collaboration and Design
 - :fontawesome-solid-arrows-spin: Agile Methodologies
-- :material-code-equal: Docs-as-Code
-	
+
 ## Recent Work Experience
+
 ### Camunda
+
 <span class="bump"><strong>Technical Writer, Self-Managed</strong> (<em>May 2024 - Present</em>)</span>
 
 ### BeyondTrust
+
 <span class="bump"><strong>Technical Writer</strong> (<em>Jan. 2023 - Mar. 2024</em>)</span>
 
 <div class="indent" markdown>
+
 :material-circle-medium: Modernized content delivery and deployment methods, introducing additional branch-based automations, linting, and link testing to existing DevOps pipelines in Github and Buddy, reducing publishing time and deployment complexity
 
 :material-circle-medium: Created new agile development processes and project tracking initiatives, evaluating gaps in team knowledge to design internal training opportunities and reduce skill and knowledge siloing
@@ -94,6 +99,7 @@ _North Carolina State University_
 </div> 
 
 ### Ethyca
+
 <span class="bump"><strong>Technical Writer</strong> (<em>Jan. 2022 - Jan. 2023</em>)</span>
 
 <div class="indent" markdown>
@@ -109,6 +115,7 @@ _North Carolina State University_
 </div>
 
 ### Berkshire Hathaway Specialty Insurance
+
 <span class="bump"><strong>Software Engineer</strong> (<em>May 2019 - Jan. 2022</em>)</span>
 
 <div class="indent" markdown>
