@@ -1,6 +1,6 @@
 # Cole Isaac, MSCS [Download :fontawesome-solid-file-pdf:](./assets/pdfs/garbo-cv.pdf){ .md-button .md-button--primary }
 
-A passionate communicator with a mind for organization and analysis, culminating in documentation that is accurate, accessible, and effective. Dedicated to a docs-as-code philosophy to create, manage, and deploy documentation for modern platforms.
+A clear communicator with a passion for organization and analysis, culminating in documentation that is accurate, accessible, and effective. Dedicated to a docs-as-code philosophy to create, manage, and deploy documentation for modern platforms.
 
 <div id="resume" markdown>
 ## Education
@@ -16,7 +16,7 @@ _Northeastern University • Boston, MA_
 _International Association of Privacy Professionals_
 
 > **Certificate in Writing**  
-_Ongoing - University of California, Los Angeles_
+_University of California, Los Angeles_
 
 > **Graduate Certificate in Biology**  
 _North Carolina State University_
@@ -49,9 +49,9 @@ _North Carolina State University_
 - :simple-circleci: CI/CD Pipelines
 - :fontawesome-brands-docker: Docker
 - :simple-kubernetes: Kubernetes 
-- :material-typewriter: DITA and Diataxis
+- :material-typewriter: Diataxis
 - :simple-postman: Postman
-- :simple-docusaurus: Static Site Generators
+- :simple-docusaurus: Docusaurus
 - :material-file-document: Mkdocs
 - :simple-hugo: Hugo
 - :simple-jekyll: Jekyll
@@ -67,8 +67,11 @@ _North Carolina State University_
 - :material-code-equal: Docs-as-Code
 	
 ## Recent Work Experience
+### Camunda
+<span class="bump"><strong>Technical Writer, Self-Managed</strong> (<em>May 2024 - Present</em>)</span>
+
 ### BeyondTrust
-<span class="bump"><strong>Technical Writer</strong> (<em>Jan. 2023 - Present</em>)</span>
+<span class="bump"><strong>Technical Writer</strong> (<em>Jan. 2023 - Mar. 2024</em>)</span>
 
 <div class="indent" markdown>
 :material-circle-medium: Modernized content delivery and deployment methods, introducing additional branch-based automations, linting, and link testing to existing DevOps pipelines in Github and Buddy, reducing publishing time and deployment complexity
@@ -91,7 +94,7 @@ _North Carolina State University_
 </div> 
 
 ### Ethyca
-<span class="bump"><strong>Lead Technical Writer</strong> (<em>Jan. 2022 - Jan. 2023</em>)</span>
+<span class="bump"><strong>Technical Writer</strong> (<em>Jan. 2022 - Jan. 2023</em>)</span>
 
 <div class="indent" markdown>
 :material-circle-medium: Led an update of product documentation and deployment methods, including the migration of content between existing Mkdocs and Vercel pipelines, Nextra markdown development, and a refactored information architecture
@@ -106,7 +109,7 @@ _North Carolina State University_
 </div>
 
 ### Berkshire Hathaway Specialty Insurance
-<span class="bump"><strong>Software and Documentation Engineer</strong> (<em>May 2019 - Jan. 2022</em>)</span>
+<span class="bump"><strong>Software Engineer</strong> (<em>May 2019 - Jan. 2022</em>)</span>
 
 <div class="indent" markdown>
 :material-circle-medium: Designed and developed the API for a Golang RDS microservice used to store and access subscription renewal records, including the successful migration of key legacy data
