@@ -45,7 +45,7 @@ _North Carolina State University_
 - :fontawesome-brands-github: Github
 - :octicons-logo-github-16: Github Pages
 - :simple-githubactions: Github Actions
-- :simple-azuredevops: DevOps Workflows
+- :material-microsoft-azure-devops: DevOps Workflows
 - :simple-circleci: CI/CD Pipelines
 - :fontawesome-brands-docker: Docker
 - :simple-kubernetes: Kubernetes 
@@ -56,13 +56,13 @@ _North Carolina State University_
 - :simple-hugo: Hugo
 - :simple-jekyll: Jekyll
 - :simple-openapiinitiative: Swagger/OpenAPI
-- :fontawesome-brands-figma: Figma
 - :simple-vercel: Vercel
 - :simple-heroku: Heroku
 - :simple-netlify: Netlify
 - :fontawesome-brands-aws: AWS
 - :material-api: API Documentation
 - :simple-semver: Release Notes
+- :fontawesome-brands-figma: Collaboration and Design
 - :fontawesome-solid-arrows-spin: Agile Methodologies
 - :material-code-equal: Docs-as-Code
 	
