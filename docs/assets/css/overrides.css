@@ -3,7 +3,7 @@
     --md-primary-fg-color: #3a313d;
     --md-default-fg-color--lighter: #000000;
     --md-default-fg-color--lightest: #000000;
-    --md-typeset-a-color: #8155cc;
+    --md-typeset-a-color: #57398b;
     --accent: #6d6877;
     --md-code-bg-color-light: hsla(var(--md-hue), 15%, 15%, .5);
 }
@@ -13,8 +13,13 @@
     --md-primary-fg-color: #3a313d;
     --md-default-fg-color--lighter: #fff;
     --md-default-fg-color--lightest: #ffffff;
+    --md-typeset-a-color: #8e71be;
     --accent: #c3b8d6;
     --md-code-bg-color-light: hsla(var(--md-hue), 15%, 15%, .5);
+}
+
+.md-typeset a:hover {
+    color: #23a2b5;
 }
 
 .md-typeset h1 {
@@ -43,7 +48,7 @@
 }
 
 [dir="ltr"] .md-typeset blockquote {
-    border-left: .2rem solid var(--md-primary-fg-color);
+    border-left: .2rem solid #7f7295;
     color: var(--md-default-fg-color--lightest);
 }
 

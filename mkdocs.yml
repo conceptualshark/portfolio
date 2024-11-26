@@ -1,6 +1,6 @@
 site_name: Cole Isaac, Technical Writer
 repo_url: https://github.com/conceptualshark/portfolio
-repo_name: View this Repository
+repo_name: View this repository
 
 # Themes 
 theme:
@@ -28,7 +28,6 @@ theme:
         name: Dark Mode
   features:
     - content.code.copy
-    - navigation.expand
     - navigation.top
     - navigation.indexes
     
