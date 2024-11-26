@@ -76,7 +76,6 @@ extra_css:
 nav:
   - About: index.md
   - Resume: resume.md
-  - Projects: projects.md
   - Portfolio: 
     - portfolio/index.md
     - Guides:
