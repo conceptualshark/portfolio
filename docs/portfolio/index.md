@@ -14,7 +14,7 @@ hide:
     Install [`mkdocs-material`](#) with [`pip`](#) and get up
     and running in minutes
 
-    [:octicons-arrow-right-24: Getting started](#)
+    [:octicons-arrow-right-24: Fides instalaltion guide](./fides-installation-guide.md)
 
 -   :material-attachment:{ .lg .middle } __Reference materials__
 
@@ -22,7 +22,7 @@ hide:
 
     Focus on your content and generate a responsive and searchable static site
 
-    [:octicons-arrow-right-24: Reference](#)
+    [:octicons-arrow-right-24: Privacy request API reference](./api-privacy-requests.md)
 
 -   :material-puzzle-edit:{ .lg .middle } __Concepts and articles__
 
@@ -30,12 +30,15 @@ hide:
 
     Change the colors, fonts, language, icons, logo and more with a few lines
 
-    [:octicons-arrow-right-24: Customization](#)
+    [:octicons-arrow-right-24: Understand privacy regulations](./article-privacy-regulations.md)
 
+<!--
 -   :material-source-commit:{ .lg middle } __Additional projects__
 
     ---
 
     Not work stuff.
 
+    [:octicons-arrow-right-24: Repositories](../projects.md)
+-->
 </div>
