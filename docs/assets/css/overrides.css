@@ -3,7 +3,7 @@
     --md-primary-fg-color: #3a313d;
     --md-default-fg-color--lighter: #000000;
     --md-default-fg-color--lightest: #000000;
-    --md-typeset-a-color: #57398b;
+    --md-typeset-a-color: #8155cc;
     --accent: #6d6877;
     --md-code-bg-color-light: hsla(var(--md-hue), 15%, 15%, .5);
 }
@@ -13,13 +13,9 @@
     --md-primary-fg-color: #3a313d;
     --md-default-fg-color--lighter: #fff;
     --md-default-fg-color--lightest: #ffffff;
-    --md-typeset-a-color: #8e71be;
+    --md-typeset-a-color: #8155cc;
     --accent: #c3b8d6;
     --md-code-bg-color-light: hsla(var(--md-hue), 15%, 15%, .5);
-}
-
-.md-typeset a:hover {
-    color: #23a2b5;
 }
 
 .md-typeset h1 {
