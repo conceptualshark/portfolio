@@ -11,8 +11,7 @@ hide:
 
     ---
 
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
+    Documentation designed to _guide action_. Installation guides; configuration how-tos; step-by-step walkthroughs.
 
     [:octicons-arrow-right-24: Fides instalaltion guide](./fides-installation-guide.md)
 
@@ -20,7 +19,7 @@ hide:
 
     ---
 
-    Focus on your content and generate a responsive and searchable static site
+    Consultation-oriented and descriptive content. API reference; configuration options; UI patterns.
 
     [:octicons-arrow-right-24: Privacy request API reference](./api-privacy-requests.md)
 
@@ -28,12 +27,12 @@ hide:
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    Explanatory pieces created to enhance understanding. Articles and blogs; content analysis; meta-documentation.
 
     [:octicons-arrow-right-24: Understand privacy regulations](./article-privacy-regulations.md)
 
 <!--
--   :material-source-commit:{ .lg middle } __Additional projects__
+-   :material-source-commit:{ .lg middle } __Tutorials__
 
     ---
 
