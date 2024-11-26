@@ -1,4 +1,4 @@
-# User Guide: Fides Installation and Deployment
+# Fides installation and deployment
 
 ## Summary
 

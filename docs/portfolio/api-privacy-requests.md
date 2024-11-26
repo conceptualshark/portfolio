@@ -1,4 +1,4 @@
-# API Reference: Privacy Requests
+# Privacy request API reference
 
 ## Summary
 
@@ -106,7 +106,7 @@ To restart a failed privacy request, call the following endpoint with an empty r
 POST /api/v1/privacy-request/<privacy_request_id>/retry
 ```
 
-## Encrypt requests
+## Enable encryption
 
 Access request results can be encrypted by supplying an `encryption_key` string in the request body. Fides uses the supplied `encryption_key` to encrypt the contents of your JSON and CSV results using an AES-256 algorithm in GCM mode.
 
@@ -127,17 +127,21 @@ to the encrypted data.
 
 ### Decrypt results
 
-Fides encrypts request data using your provided key, and an internally-generated nonce with an AES 256 algorithm in GCM mode. The return value is a 12-byte nonce plus the encrypted data that is b64 encoded together.
+Fides encrypts request data using your provided key, and an internally-generated nonce with an AES 256 algorithm in GCM mode. The return value is a 12-byte nonce plus the encrypted data that is b64 encoded together. 
 
-```sh
+```
 +------------------+-------------------+
 | nonce (12 bytes) | message (N bytes) |
 +------------------+-------------------+
 ```
+To decrypt the results, you must:
 
-To decrypt the results, you must convert the message to bytes, decode the b64 string, and separate the 12-bite nonce from the encrypted message. You can then use any GCM decryption library to decrypt the message with your private encryption string.
+1. Convert the message to bytes
+2. Decode the b64 string
+3. Separate the 12-bite nonce from the encrypted message
+4. Use any GCM decryption library to decrypt the message with your [private encryption key](#enable-encryption)
 
-In the example below, a message was encrypted using the key `test--encryption`, resulting in an encrypted string. After converting and decoding the b64 string, the nonce can be separated from the resulting bites, and the message decrypted using the AESGCM lirary.
+In the example below, a message was encrypted using the key `test--encryption`, resulting in an encrypted string. After converting and decoding the b64 string, the nonce can be separated from the resulting bites, and the message decrypted using the Python [AESGCM lirary](https://cryptography.io/en/latest/hazmat/primitives/aead/#cryptography.hazmat.primitives.ciphers.aead.AESGCM).
 
 ```python title="Sample decryption"
 import json
