@@ -1,4 +1,4 @@
-# User Guide: SSL Certificates [Download :fontawesome-solid-file-pdf:](../assets/pdfs/ssl-certificates.pdf){ .md-button .md-button--primary }
+# SSL certificates [Download :fontawesome-solid-file-pdf:](../assets/pdfs/ssl-certificates.pdf){ .md-button .md-button--primary }
 
 ## Overview
 

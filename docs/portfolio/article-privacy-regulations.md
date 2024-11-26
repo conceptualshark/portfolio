@@ -1,4 +1,4 @@
-# Concept Article: Privacy Regulations
+# Privacy regulations
 
 ## Summary
 

@@ -1,6 +1,6 @@
 /* Light mode variable overrides */
 [data-md-color-scheme="default"] {
-    --md-primary-fg-color: #7f7295;
+    --md-primary-fg-color: #3a313d;
     --md-default-fg-color--lighter: #000000;
     --md-default-fg-color--lightest: #000000;
     --md-typeset-a-color: #8155cc;
@@ -10,7 +10,7 @@
 
 /* Dark mode variable overrides */
 [data-md-color-scheme="slate"] {
-    --md-primary-fg-color: #7f7295;
+    --md-primary-fg-color: #3a313d;
     --md-default-fg-color--lighter: #fff;
     --md-default-fg-color--lightest: #ffffff;
     --accent: #c3b8d6;
@@ -100,6 +100,11 @@ li>span {
     color: var(--md-default-fg-color--lighter);
 }
 
+.md-typeset .md-button--primary {
+    background-color: #7f7295;
+    border-color: #7f7295;
+}
+
 h1 .md-button--primary {
     float: right;
     margin: 0 .5em;
@@ -166,7 +171,7 @@ p>.md-button {
 /* Media queries */
 @media screen and (max-width: 59.9375em) {
     .md-nav__source {
-        background-color: var(--accent);
+        background-color: #3a313d;
     }
 }
 
@@ -203,7 +208,7 @@ p>.md-button {
 
 @media screen and (max-width: 76.1875em) {
     .md-nav--primary .md-nav__title .md-logo {
-        display: none;
+
     }
 }
 
@@ -348,4 +353,20 @@ p>.md-button {
 
 .swagger-ui .model table {
     margin: 0 20px;
+}
+
+.information-container.wrapper {
+    display: none;
+}
+
+.grid.cards > ol > li, .md-typeset .grid.cards > ul > li, .md-typeset .grid > .card {
+    border: .05rem solid var(--md-typeset-table-color)
+}
+
+.md-typeset .grid.cards > ol > li > hr, .md-typeset .grid.cards > ul > li > hr, .md-typeset .grid > .card > hr {
+    border-bottom: .05rem solid var(--md-typeset-table-color);
+}
+
+.grid > ul > li > p > strong {
+    margin-left: .5em;
 }

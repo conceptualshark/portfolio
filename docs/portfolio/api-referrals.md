@@ -1,10 +1,10 @@
-# API Reference: Referrals
+# Referral API reference
 
 ## Summary
 
 The following is a simplified version of design document for a set of endpoints. The related microservice handled the storage and retrieval of referred or rejected customer applications, known as Referrals.
 
-This document was created for internal use, education, and planning, and used for the ultimate creation of the REST service. It has been updated here to include interactive [Swagger documentation](#swagger-documentation), built using OpenAPI 3.0.
+This document was created for internal use, education, and planning, and used for the ultimate creation of the REST service. It has been updated here to include interactive [Swagger documentation](#interactive-documentation), built using OpenAPI 3.0.
 
 ---
 
@@ -152,6 +152,6 @@ Returns a list of Referral objects created or updated since the provided `lastUp
 | `400` | Malformed request. Invalid or missing mandatory data. |
 | `500` | The server encountered an error while handling this request. |
 
-## Swagger Documentation
+## Interactive documentation
 
 !!swagger referrals.json!!

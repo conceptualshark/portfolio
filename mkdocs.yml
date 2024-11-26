@@ -5,7 +5,8 @@ repo_name: View this Repository
 # Themes 
 theme:
   name: material
-  logo: /assets/images/logo.png
+  icon:
+    logo: simple/readme
   favicon: /assets/images/logo.png
 
   palette: 
@@ -28,6 +29,9 @@ theme:
   features:
     - content.code.copy
     - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    
 plugins:
   - search
   - render_swagger
@@ -73,18 +77,20 @@ extra_css:
 nav:
   - About: index.md
   - Resume: resume.md
-  - Portfolio:
+  - Projects: projects.md
+  - Portfolio: 
+    - portfolio/index.md
     - Guides:
-        - Fides Installation: portfolio/fides-installation-guide.md
-        - 'Fides Privacy Center': portfolio/guide-privacy-center.md
-        - 'SSL Certificates': portfolio/guide-ssl-certificates.md
+        - Fides installation: portfolio/fides-installation-guide.md
+        - Fides Privacy Center: portfolio/guide-privacy-center.md
+        - SSL certificates: portfolio/guide-ssl-certificates.md
     - References:
-        - 'Privacy Requests': portfolio/api-privacy-requests.md
-        - 'Referrals': portfolio/api-referrals.md
-        - 'App Connectors': portfolio/guide-connectors.md
+        - Privacy requests: portfolio/api-privacy-requests.md
+        - Referrals: portfolio/api-referrals.md
+        - Connectors UI: portfolio/guide-connectors.md
     - Concepts:
-        - 'Privacy Regulations': portfolio/article-privacy-regulations.md
-
+        - Privacy regulations: portfolio/article-privacy-regulations.md
+        - Helm upgrade: portfolio/helm-upgrade-guide.md
 
 
 
