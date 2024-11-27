@@ -76,6 +76,7 @@ _North Carolina State University_
 
 <span class="bump"><strong>Technical Writer, Self-Managed</strong> (<em>May 2024 - Present</em>)</span>
 
+<div class="indent" markdown>
 :material-circle-medium: Served as the primary technical writer for all Self-Managed product documentation, working in an embedded capacity across multiple engineering teams to streamline content updates and improve information accuracy, accessibility, and organization
 
 :material-circle-medium: Designed an updated information architecture for the Camunda Self-Managed documentation pillar, better reflecting the product experience, expected user journey, and existing onboarding flow
@@ -91,6 +92,7 @@ _North Carolina State University_
 :material-circle-medium: Implemented weekly team meetings for capacity planning, issue triage, and standards discussion, including backlog review and skill sharing, creating additional workload visibility and educational opportunities while reducing triage and implementation time
 
 :material-circle-medium: Peer-reviewed and managed change requests for team, internal, and external contributors according to internal style guidelines, providing both constructive feedback and direct edits to achieve a unified voice across products
+</div>
 
 ### BeyondTrust
 
