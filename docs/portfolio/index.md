@@ -11,7 +11,7 @@ hide:
 
     ---
 
-    Documentation designed to _guide action_. Installation guides; configuration how-tos; step-by-step walkthroughs.
+    Documentation designed to guide action. Installation guides; configuration how-tos; step-by-step walkthroughs.
 
     [:octicons-arrow-right-24: Fides instalaltion guide](./fides-installation-guide.md)
 
