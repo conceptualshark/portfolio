@@ -1,10 +1,13 @@
 # Cole Isaac, MSCS [Download :fontawesome-solid-file-pdf:](./assets/pdfs/garbo-cv.pdf){ .md-button .md-button--primary }
 
-A clear communicator with a passion for organization and analysis, culminating in documentation that is accurate, accessible, and effective. Employs a docs-as-code philosophy to create, manage, and deploy documentation for modern platforms.
+A clear communicator with a passion for organization and analysis, culminating in documentation that is accurate, accessible, and effective. Employs a docs-as-code philosophy to author and maintain content for modern documentation platforms.
 
 <div id="resume" markdown>
+
 ## Education
+
 ### Master of Science in Computer Science
+
 > **Khoury College of Computer Sciences**  
 _Northeastern University • Boston, MA_
 
@@ -73,6 +76,22 @@ _North Carolina State University_
 
 <span class="bump"><strong>Technical Writer, Self-Managed</strong> (<em>May 2024 - Present</em>)</span>
 
+:material-circle-medium: Served as the primary technical writer for all Self-Managed product documentation, working in an embedded capacity across multiple engineering teams to streamline content updates and improve information accuracy, accessibility, and organization
+
+:material-circle-medium: Designed an updated information architecture for the Camunda Self-Managed documentation pillar, better reflecting the product experience, expected user journey, and existing onboarding flow
+
+:material-circle-medium: Determined documentation requirements for an internal architecture redesign, implementing a phased plan to perform updates alongside incremental feature delivery and across separate team workflows
+
+:material-circle-medium: Collaborated with SMEs and project stakeholders to document new features and functionality for multiple Camunda releases and products
+
+:material-circle-medium: Refreshed existing content according to a Diataxis framework, refactoring and updating guides and project information architecture for modern audiences and multiple personas, reducing the technical knowledge required for product deployment and management
+
+:material-circle-medium: Acted as the documentation manager for both minor and patch product releases, coordinating release notes, change announcements, and time-sensitive production deployments
+
+:material-circle-medium: Implemented weekly team meetings for capacity planning, issue triage, and standards discussion, including backlog review and skill sharing, creating additional workload visibility and educational opportunities while reducing triage and implementation time
+
+:material-circle-medium: Peer-reviewed and managed change requests for team, internal, and external contributors according to internal style guidelines, providing both constructive feedback and direct edits to achieve a unified voice across products
+
 ### BeyondTrust
 
 <span class="bump"><strong>Technical Writer</strong> (<em>Jan. 2023 - Mar. 2024</em>)</span>
@@ -83,15 +102,7 @@ _North Carolina State University_
 
 :material-circle-medium: Created new agile development processes and project tracking initiatives, evaluating gaps in team knowledge to design internal training opportunities and reduce skill and knowledge siloing
 
-:material-circle-medium: Designed a cross-functional education plan to promote team enablement and development, training multiple teammates on content delivery pipelines, Git methodologies, and CLI tools 
-
-:material-circle-medium: Refreshed existing content according to a Diataxis framework, refactoring and updating guides and project information architecture for modern audiences, ultimately increasing accessibility, usability, and reducing Support Team requests
-
-:material-circle-medium: Served as the primary technical writer for a cloud-based product launch, generating accurate and informed documentation based on stakeholder requirements and trial user feedback, leading to a successful GA release in September 2023 
-
-:material-circle-medium: Collaborated with SMEs and project stakeholders to document release-related features and functionality across multiple BeyondTrust products, applications, and third-party SIEM and authentication integrations
-
-:material-circle-medium: Peer-reviewed and managed change requests for teammates according to internal style guidelines, providing constructive feedback and direct edits to achieve a unified voice across products
+:material-circle-medium: Designed a cross-functional education plan to promote team enablement and development, training multiple teammates on content delivery pipelines, Git methodologies, and CLI tools
 
 :material-circle-medium: Led research into AI and automation implementations to improve content development times and reduce manual editorial processes
 
