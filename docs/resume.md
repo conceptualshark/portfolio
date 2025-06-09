@@ -72,26 +72,31 @@ _North Carolina State University_
 
 ## Recent Work Experience
 
-### Camunda
+### CoreWeave
 
-<span class="bump"><strong>Technical Writer, Self-Managed</strong> (<em>May 2024 - Present</em>)</span>
+<span class="bump"><strong>Staff Technical Writer, Knowledge Architecture</strong> (<em>May 2025 - Present</em>)</span>
 
 <div class="indent" markdown>
-:material-circle-medium: Served as the primary technical writer for all Self-Managed product documentation, working in an embedded capacity across multiple engineering teams to streamline content updates and improve information accuracy, accessibility, and organization
+:material-circle-medium: Assisted cross-functional initiative to consolidate fragmented internal documentation systems into a unified knowledge hub, migrating existing content while establishing new governance standards and generating low-lift maintenance workflows
 
-:material-circle-medium: Designed an updated information architecture for the Camunda Self-Managed documentation pillar, better reflecting the product experience, expected user journey, and existing onboarding flow
+:material-circle-medium: Developed team operational standards including voice and tone guidelines, editorial workflows, and cross-functional collaboration processes, creating reusable templates and examples for organization-wide adoption
 
-:material-circle-medium: Determined documentation requirements for an internal architecture redesign, implementing a phased plan to perform updates alongside incremental feature delivery and across separate team workflows
+:material-circle-medium: Contributed technical writing expertise to cross-functional knowledge architecture projects, developing content strategies, information hierarchies, and search optimization improvements to meet organization-wide engineering enablement objectives
+</div>
 
-:material-circle-medium: Collaborated with SMEs and project stakeholders to document new features and functionality for multiple Camunda releases and products
+### Camunda
 
-:material-circle-medium: Refreshed existing content according to a Diataxis framework, refactoring and updating guides and project information architecture for modern audiences and multiple personas, reducing the technical knowledge required for product deployment and management
+<span class="bump"><strong>Senior Technical Writer, Self-Managed</strong> (<em>May 2024 - May 2025</em>)</span>
 
-:material-circle-medium: Acted as the documentation manager for both minor and patch product releases, coordinating release notes, change announcements, and time-sensitive production deployments
+<div class="indent" markdown>
+:material-circle-medium: Led technical documentation strategy for the Self-Managed product pillar, embedding with multiple infrastructure experience engineering teams to design new product user journeys and improve content accuracy across multiple documentation sets
 
-:material-circle-medium: Implemented weekly team meetings for capacity planning, issue triage, and standards discussion, including backlog review and skill sharing, creating additional workload visibility and educational opportunities while reducing triage and implementation time
+:material-circle-medium: Established regular documentation team operations including weekly capacity planning, issue triage workflows, and knowledge sharing sessions, reducing review cycle time and work redundancy
 
-:material-circle-medium: Peer-reviewed and managed change requests for team, internal, and external contributors according to internal style guidelines, providing both constructive feedback and direct edits to achieve a unified voice across products
+:material-circle-medium: Maintained content quality standards through peer review processes and style guide enforcement, managing contributions from both internal and external contributors while ensuring consistent voice across all product documentation
+
+:material-circle-medium: Mentored and developed technical writing talent through coaching, skill sharing and development, and performance management
+
 </div>
 
 ### BeyondTrust
