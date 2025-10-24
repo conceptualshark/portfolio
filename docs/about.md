@@ -5,8 +5,6 @@ hide:
     - toc
 ---
 
-# Cole Isaac • Staff Technical Writer
-
 I'm Cole Isaac, a technical writer and editor based in the northeastern US. My goal is to break complex technical information into clearly communicated content; my passion is developing the human and technical workflows that make good documentation great.
 
 In practice, I employ a docs-as-code philosophy to create, manage, and publish documentation for modern platforms, informed by established standards and evolving best practices.
