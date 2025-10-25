@@ -5,6 +5,7 @@ repo_name: View this repository
 # Themes 
 theme:
   name: material
+  custom_dir: docs/overrides
   icon:
     logo: simple/readme
   favicon: /assets/images/logo.png
@@ -75,7 +76,7 @@ extra_css:
 
 # Navigation 
 nav:
-  - About: index.md
+  - About: about.md
   - Resume: resume.md
   - Portfolio: 
     - portfolio/index.md

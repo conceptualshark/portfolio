@@ -1,12 +1,10 @@
 # Resume and Portfolio
-[![build-and-publish](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/publish.yml) [![pages-build-deployment](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/pages/pages-build-deployment) ![Built with Markdown](https://img.shields.io/badge/Markdown-blue) 
-
-[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/cisaac-portfolio?style=for-the-badge)[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
 ## :zap: About
 I am a technical writer and editor with a background in software engineering and project management. This repository serves as a home for my portfolio and resume, and can be viewed live at [https://cisaac-portfolio.vercel.app/](https://cisaac-portfolio.vercel.app/). 
 
-This project is built using [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/), a static site generator. Pages are written in Markdown, customized using the Mkdocs configuration file and CSS overrides, and published using [Vercel](https://vercel.com//).
+This project is built using [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/), a static site generator. Pages are written in Markdown, customized using Mkdoc's template and CSS overrides, and published using [Vercel](https://vercel.com//).
 
 ## :rocket: Deployment
 
