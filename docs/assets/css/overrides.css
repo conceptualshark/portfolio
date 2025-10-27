@@ -194,7 +194,6 @@ p>.md-button {
 }
 
 /* Media queries */
-/* Media query overrides */
 @media screen and (max-width: 76.1875em) {
     .md-nav--primary .md-nav__title~.md-nav__list {
         box-shadow: unset;

@@ -1,7 +1,4 @@
-/* Splash Hero Section Styles */
-
-/* Light mode color scheme */
-/* Hero color schemes */
+/* Splash page/hero section styles; only loaded on index */
 .sl-hero {
     --sl-text: var(--md-typeset-color);
     --sl-brand: var(--md-accent-a-color);
