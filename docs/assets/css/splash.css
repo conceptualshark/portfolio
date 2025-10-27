@@ -1,0 +1,194 @@
+/* Splash page/hero section styles; only loaded on index */
+.sl-hero {
+    --sl-text: var(--md-typeset-color);
+    --sl-brand: var(--md-accent-a-color);
+    --sl-brand-2: var(--md-accent-fg-color);
+    --btn-secondary-bg: var(--md-primary-fg-color);
+}
+
+[data-md-color-scheme="default"] .sl-hero {
+    --sl-muted: #1a1f2e;
+    --title-start: #1a1f2e;
+    --title-mid1: #5e46ff;
+    --title-mid2: #10c2cb;
+    --title-end: #7a58d2;
+}
+
+[data-md-color-scheme="slate"] .sl-hero {
+    --sl-muted: #a9b3c9;
+    --title-start: var(--sl-text);
+    --title-mid1: #b3c1ff;
+    --title-mid2: #9df5f7;
+    --title-end: #ffc7e9;
+}
+
+/* Hero layout and structure */
+.sl-hero {
+    --sl-radius: 16px;
+    --sl-shadow-1: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 10px 40px rgba(0, 0, 0, 0.45);
+    --sl-container: 1200px;
+    position: relative;
+    isolation: isolate;
+    padding: clamp(32px, 6vw, 80px) 0 clamp(48px, 8vw, 88px);
+    background: var(--md-default-bg-color);
+    color: var(--sl-text);
+    height: 100%;
+}
+
+.sl-hero__container {
+    width: min(100% - 2rem, var(--sl-container));
+    margin-inline: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: clamp(20px, 4vw, 48px);
+}
+
+@media (max-width: 700px) {
+    .sl-hero__container {
+        grid-template-columns: 1fr;
+    }
+
+    .sl-hero__media {
+        grid-row: 1;
+    }
+
+    .sl-hero__media img {
+        width: 50%;
+    }
+}
+
+.sl-hero__title {
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+    font-size: clamp(2.2rem, 5vw + 1rem, 4.75rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 18px 0 12px;
+    background: linear-gradient(90deg,
+            var(--title-start),
+            var(--title-mid1) 45%,
+            var(--title-mid2) 75%,
+            var(--title-end) 100%);
+    background-size: 200% auto;
+    background-position: 0 50%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.sl-hero__subtitle {
+    color: var(--sl-muted);
+    font-size: clamp(1rem, 1.2vw + .8rem, 1.2rem);
+    max-width: 60ch;
+    margin: 0 0 24px;
+}
+
+.sl-hero__cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.sl-hero__btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 3px;
+    background: var(--sl-brand);
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.sl-hero__btn::after {
+    content: '→';
+    margin-left: 0.5em;
+    transition: transform 0.25s ease;
+}
+
+.sl-hero__btn:hover::after {
+    transform: translateX(4px);
+}
+
+.sl-hero__btn:hover {
+    transform: translateY(-1px);
+    filter: saturate(110%);
+}
+
+.sl-hero__btn:focus-visible {
+    outline: 3px solid var(--sl-brand-2);
+    outline-offset: 2px;
+}
+
+.sl-hero__btn--secondary {
+    background: var(--btn-secondary-bg);
+}
+
+.sl-hero__btn--text {
+    background: transparent;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    color: var(--sl-text);
+    box-shadow: none;
+}
+
+.sl-hero__btn--text::after {
+    content: '';
+}
+
+.sl-hero__btn--text svg {
+    fill: var(--sl-text);
+    height: 1rem;
+    top: .1rem;
+    position: relative;
+}
+
+.md-main {
+    display: none
+}
+
+.sl-hero__media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: rotate(-10deg);
+    transition: transform 0.3s ease;
+}
+
+@media (max-width:700px) {
+    .sl-hero__media img {
+        width: 50%;
+    }
+}
+
+[data-md-color-scheme="default"] .md-header, .md-copyright__highlight, .md-copyright { 
+    color: var(--md-typeset-color) !important;
+}
+
+[data-md-color-scheme="default"] .md-footer-meta.md-typeset a {
+    color: var(--md-code-fg-color) !important
+}
+
+[data-md-color-scheme="default"] .md-footer-meta.md-typeset a:hover {
+    color: var(--md-code-hl-comment-color) !important
+}
+
+.md-container {
+    height: 100vh;
+}
+
+.md-header,
+.md-footer-meta {
+    background-color: var(--md-default-bg-color);
+    box-shadow: unset;
+}
+

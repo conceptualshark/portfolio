@@ -1,3 +1,10 @@
+---
+title: "Resume | Cole Isaac, MSCS"
+description: "Professional experience and technical skills of Cole Isaac, a Staff Technical Writer specializing in documentation engineering and knowledge architecture."
+hide:
+    - toc
+---
+
 # Cole Isaac, MSCS [Download :fontawesome-solid-file-pdf:](./assets/pdfs/garbo-cv.pdf){ .md-button .md-button--primary }
 
 A clear communicator with a passion for organization and analysis, culminating in documentation that is accurate, accessible, and effective. Employs a docs-as-code philosophy to author and maintain content for modern documentation platforms.
@@ -26,9 +33,9 @@ _University of California, Los Angeles_
 > **Graduate Certificate in Biology**  
 _North Carolina State University_
 
-## Technical Knowledge
+## Technical knowledge
 
-### Language Proficiencies
+### Language proficiencies
 
 - :fontawesome-brands-markdown: Markdown/MDX
 - :fontawesome-brands-html5: HTML
@@ -43,7 +50,7 @@ _North Carolina State University_
 - :simple-cplusplus: C/C++
 - :fontawesome-brands-python: Python
 
-### Skills, Systems & Tools
+### Skills, systems and tools
 
 - :simple-git: Git
 - :fontawesome-brands-jira: Jira/Issue Tracking
@@ -70,7 +77,7 @@ _North Carolina State University_
 - :fontawesome-brands-figma: Collaboration and Design
 - :fontawesome-solid-arrows-spin: Agile Methodologies
 
-## Recent Work Experience
+## Recent work experience
 
 ### CoreWeave
 

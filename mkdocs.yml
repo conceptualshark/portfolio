@@ -1,15 +1,21 @@
-site_name: Cole Isaac, Technical Writer
+site_name: Docs as Craft
 repo_url: https://github.com/conceptualshark/portfolio
 repo_name: View this repository
 
 # Themes 
 theme:
   name: material
+  custom_dir: docs/overrides
   icon:
-    logo: simple/readme
+    logo: material/code-braces
   favicon: /assets/images/logo.png
 
   palette: 
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -17,7 +23,8 @@ theme:
       accent: cyan
       toggle:
         icon: material/brightness-4
-        name: Light Mode
+        name: Switch to dark mode
+
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -25,7 +32,8 @@ theme:
       accent: cyan
       toggle:
         icon: material/brightness-7 
-        name: Dark Mode
+        name: Switch to system preference
+        
   features:
     - content.code.copy
     - navigation.top
@@ -75,7 +83,7 @@ extra_css:
 
 # Navigation 
 nav:
-  - About: index.md
+  - About: about.md
   - Resume: resume.md
   - Portfolio: 
     - portfolio/index.md
@@ -85,7 +93,7 @@ nav:
         - SSL certificates: portfolio/guide-ssl-certificates.md
     - References:
         - Privacy requests: portfolio/api-privacy-requests.md
-        - Referrals: portfolio/api-referrals.md
+        - Referral API: portfolio/api-referrals.md
         - Connectors UI: portfolio/guide-connectors.md
     - Concepts:
         - Privacy regulations: portfolio/article-privacy-regulations.md

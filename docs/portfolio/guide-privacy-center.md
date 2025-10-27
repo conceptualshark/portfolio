@@ -1,3 +1,8 @@
+---
+title: "Privacy Center Deployment Guide"
+description: "Step-by-step guide for configuring and deploying the Fides Privacy Center, including customization options for privacy requests and consent management."
+---
+
 # Privacy Center deployment
 
 ## Summary

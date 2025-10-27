@@ -1,3 +1,8 @@
+---
+title: "SSL Certificate Management Guide"
+description: "An updated guide to SSL Certificate management in BeyondTrust Remote Support, with modernized instructions and improved accessibility."
+---
+
 # SSL certificates [Download :fontawesome-solid-file-pdf:](../assets/pdfs/ssl-certificates.pdf){ .md-button .md-button--primary }
 
 ## Overview
@@ -12,6 +17,4 @@ The resulting guide was more accessible and instructional for users of all skill
 
 ![SSL Guide](../assets/images/ssl-guides.png)
 
-## Resources
-
-[Live Document](https://www.beyondtrust.com/docs/remote-support/how-to/sslcertificates/index.htm){ .md-button .md-button--primary } [Formatted PDF](../assets/pdfs/ssl-certificates.pdf){ .md-button .md-button--primary }
+[Formatted PDF](../assets/pdfs/ssl-certificates.pdf){ .md-button .md-button--primary }
