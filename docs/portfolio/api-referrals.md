@@ -1,3 +1,8 @@
+---
+title: "Referral API Reference"
+description: "Comprehensive API documentation for managing customer referrals, including endpoints for creation, retrieval, and status updates."
+---
+
 # Referral API reference
 
 ## Summary

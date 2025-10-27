@@ -1,3 +1,8 @@
+---
+title: "Privacy Regulations Overview"
+description: "An analysis of CPRA and CDPA privacy regulations, explaining key requirements for opt-in/opt-out consent and business compliance measures."
+---
+
 # Privacy regulations
 
 ## Summary

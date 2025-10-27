@@ -1,17 +1,20 @@
 /* Splash Hero Section Styles */
 
 /* Light mode color scheme */
+/* Hero color schemes */
+.sl-hero {
+    --sl-text: var(--md-typeset-color);
+    --sl-brand: var(--md-accent-a-color);
+    --sl-brand-2: var(--md-accent-fg-color);
+    --btn-secondary-bg: var(--md-primary-fg-color);
+}
+
 [data-md-color-scheme="default"] .sl-hero {
     --sl-muted: #1a1f2e;
     --title-start: #1a1f2e;
-    /* deeper indigo start */
     --title-mid1: #5e46ff;
-    /* stronger violet mid */
     --title-mid2: #10c2cb;
-    /* slightly darker cyan */
     --title-end: #7a58d2;
-    /* lavender shifted darker */
-    --btn-secondary-bg: var(--md-primary-fg-color);
 }
 
 [data-md-color-scheme="slate"] .sl-hero {
@@ -20,13 +23,10 @@
     --title-mid1: #b3c1ff;
     --title-mid2: #9df5f7;
     --title-end: #ffc7e9;
-    --btn-secondary-bg: var(--md-primary-fg-color);
 }
 
+/* Hero layout and structure */
 .sl-hero {
-    --sl-text: var(--md-typeset-color);
-    --sl-brand: var(--md-accent-a-color);
-    --sl-brand-2: var(--md-accent-fg-color);
     --sl-radius: 16px;
     --sl-shadow-1: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 10px 40px rgba(0, 0, 0, 0.45);
     --sl-container: 1200px;
@@ -173,7 +173,17 @@
     }
 }
 
-/* Overrides */
+[data-md-color-scheme="default"] .md-header, .md-copyright__highlight, .md-copyright { 
+    color: var(--md-typeset-color) !important;
+}
+
+[data-md-color-scheme="default"] .md-footer-meta.md-typeset a {
+    color: var(--md-code-fg-color) !important
+}
+
+[data-md-color-scheme="default"] .md-footer-meta.md-typeset a:hover {
+    color: var(--md-code-hl-comment-color) !important
+}
 
 .md-container {
     height: 100vh;
@@ -184,3 +194,4 @@
     background-color: var(--md-default-bg-color);
     box-shadow: unset;
 }
+

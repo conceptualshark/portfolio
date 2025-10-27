@@ -1,3 +1,8 @@
+---
+title: "Privacy Request API Reference"
+description: "A comprehensive API reference for managing privacy requests, including creation, verification, approval, and encryption of data subject requests."
+---
+
 # Privacy request API reference
 
 ## Summary

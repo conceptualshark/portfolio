@@ -1,3 +1,8 @@
+---
+title: "Fides Installation and Deployment Guide"
+description: "Production-level deployment guide for the Fides privacy platform, covering database setup, cache configuration, and webserver deployment."
+---
+
 # Fides installation and deployment
 
 ## Summary

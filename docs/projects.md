@@ -1,4 +1,6 @@
 ---
+title: "Projects and demos"
+description: "A showcase of documentation projects and technical writing demos, including MkDocs implementations and end-to-end documentation examples."
 hide:
     - toc
 ---
