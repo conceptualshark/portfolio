@@ -39,6 +39,7 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.expand
+    - content.tabs.link
     
 plugins:
   - search
@@ -55,8 +56,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.inlinehilite
-  - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.snippets
   - pymdownx.details
   - def_list
   - md_in_html
@@ -88,15 +89,19 @@ nav:
   - Portfolio: 
     - portfolio/index.md
     - Guides:
+        - Camunda 8 Run: portfolio/c8run.md
+        - Git sync for Modeler: portfolio/git-sync.md
+        - Human task orchestration: portfolio/human-task-orchestration.md
+        - Helm chart upgrade: portfolio/helm-upgrade-guide.md
         - Fides installation: portfolio/fides-installation-guide.md
         - Fides Privacy Center: portfolio/guide-privacy-center.md
-        - SSL certificates: portfolio/guide-ssl-certificates.md
     - References:
         - Privacy requests: portfolio/api-privacy-requests.md
         - Referral API: portfolio/api-referrals.md
         - Connectors UI: portfolio/guide-connectors.md
     - Concepts:
         - Privacy regulations: portfolio/article-privacy-regulations.md
+        - Reference architecture: portfolio/reference-architecture.md
 
 
 

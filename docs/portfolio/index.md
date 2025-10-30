@@ -13,7 +13,7 @@ hide:
 
     Documentation designed to guide action. Installation guides; configuration how-tos; step-by-step walkthroughs.
 
-    [:octicons-arrow-right-24: Fides instalaltion guide](./fides-installation-guide.md)
+    [:octicons-arrow-right-24: Camunda 8 Run installation guide](./c8run.md)
 
 -   :material-attachment:{ .lg .middle } __Reference materials__
 
@@ -31,13 +31,12 @@ hide:
 
     [:octicons-arrow-right-24: Understand privacy regulations](./article-privacy-regulations.md)
 
-<!--
--   :material-source-commit:{ .lg middle } __Tutorials__
+-   :material-source-commit:{ .lg middle } __Project management__
 
     ---
 
-    Not work stuff.
+    Strategic planning and process documentation. Project roadmaps; team workflows; documentation governance.
 
     [:octicons-arrow-right-24: Repositories](../projects.md)
--->
+
 </div>

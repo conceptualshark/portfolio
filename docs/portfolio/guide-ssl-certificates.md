@@ -1,20 +1,42 @@
 ---
-title: "SSL Certificate Management Guide"
-description: "An updated guide to SSL Certificate management in BeyondTrust Remote Support, with modernized instructions and improved accessibility."
+title: SSL Certificate Management Guide
+description: A comprehensive guide to managing SSL certificates in BeyondTrust Remote Support, including best practices and step-by-step instructions.
+hide:
+    - toc
 ---
 
-# SSL certificates [Download :fontawesome-solid-file-pdf:](../assets/pdfs/ssl-certificates.pdf){ .md-button .md-button--primary }
+# SSL Certificate Management 
 
-## Overview
+[:material-file-pdf: Download Guide](../assets/pdfs/ssl-certificates.pdf){ .md-button .md-button--primary } 
 
-As part of ongoing content modernization efforts at [BeyondTrust](https://www.beyondtrust.com/docs/), an existing guide on SSL Certificate management registered as out-of-date in both instruction and style. Updating this guide required meeting with the Remote Support product SMEs, conducting independent research, and both rewriting and reformatting the existing content to match an internal documentation style guide.
+!!! info "About this guide"
+    This guide provides modernized instructions for SSL certificate management in BeyondTrust Remote Support. Originally developed for the BeyondTrust documentation site, this guide has been updated to reflect current product capabilities and security best practices.
 
-Per stakeholder request, sections of content were designed to appear on multiple pages. These sections were embedded on each page from a single source to reduce future maintenance efforts.
+![SSL Certificate Management Guide Preview](../assets/images/ssl-guides.png){ align=center }
 
-The resulting guide was more accessible and instructional for users of all skill levels, and accurate to the current state of the product.
+## Guide Features
 
----
+<div class="grid cards" markdown>
 
-![SSL Guide](../assets/images/ssl-guides.png)
+-   :material-certificate-outline:{ .lg .middle } __Certificate Management__
 
-[Formatted PDF](../assets/pdfs/ssl-certificates.pdf){ .md-button .md-button--primary }
+    ---
+    
+    Step-by-step instructions for installing, updating, and managing SSL certificates
+
+-   :material-security:{ .lg .middle } __Security Best Practices__
+
+    ---
+    
+    Current security recommendations and configuration guidelines
+
+-   :material-library:{ .lg .middle } __Reusable Content__
+
+    ---
+    
+    Modular sections designed for cross-page embedding and easy maintenance
+
+</div>
+
+!!! tip "Looking for the complete guide?"
+    Download the [full SSL Certificate Management Guide](../assets/pdfs/ssl-certificates.pdf) in PDF format for offline reference.
