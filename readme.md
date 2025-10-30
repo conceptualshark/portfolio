@@ -1,6 +1,6 @@
 # Resume and Portfolio
 
-![Vercel Deploy](https://deploy-badge.vercel.app/vercel/cisaac-portfolio?style=for-the-badge)[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/cisaac-portfolio?style=for-the-badge) [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
 ## :zap: About
 I am a technical writer and editor with a background in software engineering and project management. This repository serves as a home for my portfolio and resume, and can be viewed live at [https://cisaac-portfolio.vercel.app/](https://cisaac-portfolio.vercel.app/). 
