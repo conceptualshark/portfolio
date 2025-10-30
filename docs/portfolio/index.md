@@ -31,6 +31,7 @@ hide:
 
     [:octicons-arrow-right-24: Understand privacy regulations](./article-privacy-regulations.md)
 
+<!--
 -   :material-source-commit:{ .lg middle } __Project management__
 
     ---
@@ -38,5 +39,5 @@ hide:
     Strategic planning and process documentation. Project roadmaps; team workflows; documentation governance.
 
     [:octicons-arrow-right-24: Repositories](../projects.md)
-
+-->
 </div>
