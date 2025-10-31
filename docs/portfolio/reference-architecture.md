@@ -39,7 +39,7 @@ When designing a reference architecture, it's essential to understand the differ
 
 #### Orchestration Cluster
 
-![Orchestration Cluster](/assets/images/orchestration-cluster.jpg)
+![Orchestration Cluster](../assets/images/orchestration-cluster.jpg)
 
 The Orchestration Cluster is the core of Camunda.
 
@@ -58,7 +58,7 @@ This design ensures that all components are in sync, working collectively to mai
 
 #### Web Modeler and Console
 
-![Web Modeler and Console](/assets/images/management-cluster.jpg)
+![Web Modeler and Console](../assets/images/management-cluster.jpg)
 
 Web Modeler and Console are designed to interact with multiple orchestration clusters. Console offers tools and interfaces for administrators to monitor clusters, and Web Modeler allows developers to create and deploy BPMN models.
 
