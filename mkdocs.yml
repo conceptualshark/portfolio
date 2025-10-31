@@ -8,7 +8,7 @@ theme:
   custom_dir: docs/overrides
   icon:
     logo: material/code-braces
-  favicon: /assets/images/logo.png
+  favicon: /assets/images/hero-img.png
 
   palette: 
     - media: "(prefers-color-scheme)"
@@ -91,7 +91,7 @@ nav:
     - Guides:
         - Camunda 8 Run: portfolio/guides/c8run.md
         - Git sync for Modeler: portfolio/guides/git-sync.md
-        - Human task orchestration: portfolio/guides/human-task-orchestration.md
+        - Remote development (Coder): portfolio/guides/coder.md
         - Fides installation: portfolio/guides/fides-installation-guide.md
         - Fides Privacy Center: portfolio/guides/guide-privacy-center.md
     - Process and planning:

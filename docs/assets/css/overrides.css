@@ -313,9 +313,7 @@ p>.md-button {
     padding: 27px 0 !important;
 }
 
-[dir="ltr"] .md-typeset ul li {
-    margin-left: unset;
-}
+
 
 .swagger-ui .tab li {
     display: inline;

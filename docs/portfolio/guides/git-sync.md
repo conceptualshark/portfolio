@@ -33,9 +33,9 @@ Select your Git repository host:
 
     - Under **Webhooks**, deselect **Active**
     - Under **Permissions > Repository permissions**, enable **Read and write** for the following options:
-    - Commit statuses
-    - Contents
-    - Pull requests
+        - Commit statuses
+        - Contents
+        - Pull requests
 
     Click **Create GitHub App** to finish.
 
@@ -93,10 +93,10 @@ Select your Git repository host:
 
     - Assign the token to a user with the `developer` or `maintainer` role.
     - Enable the following [**scopes**](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html#scopes-for-a-project-access-token):
-    - `api`
-    - `read_api`
-    - `read_repository`
-    - `write_repository`
+        - `api`
+        - `read_api`
+        - `read_repository`
+        - `write_repository`
 
     <h3> Get the Project ID </h3>
 
