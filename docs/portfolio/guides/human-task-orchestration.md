@@ -87,7 +87,7 @@ In this step, you will design a process that demonstrates how to route the proce
 9. Connect the split process flows again. Append another exclusive gateway to one of the tasks. Select the other task and drag the arrow-shaped sequence flow tool to connect it to the gateway.
 10. Select the gateway and add an **end event** to your process, denoted by the circle with the thick outline.
 
-<div class="small-wrap" markdown> ![Example of a conditional expression](../assets/images/expression-input-example.png) </div>
+<div class="small-wrap" markdown> ![Example of a conditional expression](../../assets/images/expression-input-example.png) </div>
 
 ## Step 2: Design a form
 
@@ -115,7 +115,7 @@ You have now designed the process. To allow the user to make the decision, you w
       8. Scroll down to the **Static options** section of the properties panel to add radio options. Since there are two options for the dinner, add an extra value by clicking on the plus sign. Enter the value `Chicken` with the same label as `Chicken` and enter the value `Salad` with the label as `Salad` in the other value.
 
 <div class="inline-wrap" markdown>
-![Form values at the top.](../assets/images/form-values-top.png) ![Form values at the bottom.](../assets/images/form-values-bottom.png) </div>
+![Form values at the top.](../../assets/images/form-values-top.png) ![Form values at the bottom.](../../assets/images/form-values-bottom.png) </div>
 
 ## Step 3: Link the form to your process
 
@@ -149,7 +149,7 @@ Your process is now ready to run. Given its human-centric nature, it is well sui
       2. Click **Deploy** to deploy your process.
       3. To run your new process, click the arrow-shaped **Run** icon, and provide your form input as JSON (for example, `{"meal": "chicken"}`).
 
-         <div class="small-wrap" markdown>![Enter optional variables to use and run your process](../assets/images/run-process-sm.png){ width="300" }</div>
+         <div class="small-wrap" markdown>![Enter optional variables to use and run your process](../../assets/images/run-process-sm.png){ width="300" }</div>
 
       4. Click **Run** to run your process with the provided variables.
 
@@ -171,7 +171,7 @@ Your process is now ready to run. Given its human-centric nature, it is well sui
       1. The process start will be confirmed via a notification message on the screen. Click the **chevron icon** next to **Run** to open more options. Click **View process instances** to see the running process in Operate.
       2. In Operate, you will see a visualization of the running process instance. Notice that a green **token** is waiting at the user task. This means that a task is waiting to be worked on in Tasklist.
 
-![Process instance monitoring in Operate](../assets/images/operate-human-tasks.png)
+![Process instance monitoring in Operate](../../assets/images/operate-human-tasks.png)
 
 ## Step 5: Complete a user task
 
@@ -193,7 +193,7 @@ Once you have access to Tasklist:
 2. In the detail view, the form you created in **[Step 2](#step-2-design-a-form)** appears. It is read only since this task is currently unassigned. You have to claim the task to work on it. Next to **Assignee**, click **Assign to me** to claim the task.
 3. Select one of the radio options.
 4. Click **Complete Task** to submit the form.
-   ![complete a human task in Tasklist](../assets/images/user-task-tasklist.png)
+      ![complete a human task in Tasklist](../../assets/images/user-task-tasklist.png)
 
 5. To verify your task completion, you can filter by **Completed** tasks in the left task list panel.
 

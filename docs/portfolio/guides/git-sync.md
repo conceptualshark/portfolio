@@ -77,7 +77,7 @@ Select your Git repository host:
 
     When successful, your project will display a new **Sync with GitHub** button.
 
-    ![The Sync with GitHub button within Web Modeler](../assets/images/git-sync.png)
+    ![The Sync with GitHub button within Web Modeler](../../assets/images/git-sync.png)
 
 === "GitLab"
 
