@@ -7,7 +7,7 @@ hide:
 
 # Cole Isaac, MSCS [Download :fontawesome-solid-file-pdf:](./assets/pdfs/garbo-cv.pdf){ .md-button .md-button--primary }
 
-A clear communicator with a passion for organization and analysis, culminating in documentation that is accurate, accessible, and effective. Employs a docs-as-code philosophy to author and maintain content for modern documentation platforms.
+Technical writing leader with expertise in documentation strategy, information architecture, and enterprise systems. Proven ability to lead large-scale documentation initiatives while delivering high-quality technical content for engineering audiences.
 
 <div id="resume" markdown>
 
@@ -84,11 +84,12 @@ _North Carolina State University_
 <span class="bump"><strong>Staff Technical Writer, Knowledge Architecture</strong> (<em>May 2025 - Present</em>)</span>
 
 <div class="indent" markdown>
-:material-circle-medium: Assisted cross-functional initiative to consolidate fragmented internal documentation systems into a unified knowledge hub, migrating existing content while establishing new governance standards and generating low-lift maintenance workflows
+:material-circle-medium: Architected and executed enterprise wiki migration from Notion to Confluence for 2,000 users, designing information hierarchy for 50+ spaces and establishing migration frameworks that accelerated a stalled initiative to meet deadline 
 
-:material-circle-medium: Developed team operational standards including voice and tone guidelines, editorial workflows, and cross-functional collaboration processes, creating reusable templates and examples for organization-wide adoption
+:material-circle-medium: Led engineering onboarding documentation overhaul supporting 10-20 weekly hires, rewriting 20+ guides covering workstation setup, development environments, and engineering standards in four-week delivery timeline
 
-:material-circle-medium: Contributed technical writing expertise to cross-functional knowledge architecture projects, developing content strategies, information hierarchies, and search optimization improvements to meet organization-wide engineering enablement objectives
+:material-circle-medium: Built operational infrastructure for knowledge architecture team from scratch, establishing team charter, workflows, templates, and standards that enabled consistent practices and prepared team for scaling from 3 to 5 members
+
 </div>
 
 ### Camunda
