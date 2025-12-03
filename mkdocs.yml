@@ -94,7 +94,7 @@ nav:
         - Remote development (Coder): portfolio/guides/coder.md
         - Fides installation: portfolio/guides/fides-installation-guide.md
         - Fides Privacy Center: portfolio/guides/guide-privacy-center.md
-    - Process and planning:
+    - Process:
         - Engineering onboarding: portfolio/process/engineering-onboarding.md
         - Enterprise wiki migration: portfolio/process/wiki-migration.md
         - Team foundation: portfolio/process/team-documentation.md

@@ -48,37 +48,16 @@ Establishing this team infrastructure demonstrated how operational foundations e
 
 ## Artifacts
 
-### Team Charter Structure
+The following are anonymized samples of work completed for this project:
 
-Screenshot showing the table of contents or outline of the team charter. Anonymize by:
-
-- Redacting specific team member names (use "Technical Writer 1", "Technical Writer 2", etc.)
-- Keeping section headers visible (e.g., "Mission & Vision", "Scope of Work", "Operating Principles", "Stakeholder Relationships")
-- Showing the hierarchical structure without revealing company-specific strategic information
-
-### Process Documentation Sample
-
-Example of your Jira workflow or work intake process. Anonymize by:
-
-- Using generic project names ("Project A", "Customer Documentation Request")
-- Replacing ticket numbers with placeholders (DOC-XXX)
-- Showing the workflow stages and decision points without specific company context
-- Could be presented as a flowchart or screenshot of documented process steps
-
-### Template Library Overview
-
-Screenshot of your template collection or a single template. Structure could show:
-
-- List of template types (e.g., "API Reference Template", "How-To Guide Template", "Troubleshooting Template")
-- Template metadata (purpose, when to use, owner)
-- Could show one template's outline/structure with placeholder content
-- Demonstrates your framework thinking without revealing actual documentation
-
-### Documentation Space Organization
-
-Screenshot showing your internal docs navigation or site structure. Anonymize by:
-
-- Showing the hierarchical folder/page structure without specific page titles
-- Using generic labels ("Team Processes", "Templates & Standards", "Meeting Notes", "Project Documentation")
-- Demonstrating information architecture principles
-- Could be a sitemap diagram created in Lucidchart with sanitized labels
+<div class="preview-row">
+    <a class="preview-card" href="/assets/pdfs/team-charter.pdf" aria-label="Team charter">
+        <img class="preview-img" src="/assets/images/team-charter.png" alt="Team charter" />
+    </a>
+    <a class="preview-card" href="/assets/pdfs/style-guide.pdf" aria-label="Style guide">
+        <img class="preview-img" src="/assets/images/style-guide.png" alt="Style guide" />
+    </a>
+    <a class="preview-card" href="/assets/pdfs/jira-standards.pdf" aria-label="Jira standards">
+        <img class="preview-img" src="/assets/images/review-process.png" alt="Jira standards" />
+    </a>
+</div>
