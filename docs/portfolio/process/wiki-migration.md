@@ -48,57 +48,16 @@ This project demonstrated how technical writing leadership extends beyond conten
 
 ## Artifacts
 
-### Information Architecture Diagram
+The following are anonymized samples of work completed for this project:
 
-Lucidchart or draw.io diagram showing the Confluence space hierarchy. Anonymize by:
-
-- Using generic space names ("Engineering", "Product", "Operations", "Team Spaces", etc.)
-- Showing the parent-child relationships and organizational structure
-- Including space types (e.g., "Department Spaces", "Project Spaces", "Personal Spaces")
-- Demonstrating your architectural thinking without revealing specific team or project names
-- Could include color-coding or icons to show different space categories
-
-### Space Template Structure
-
-Screenshot of a Confluence space showing your template organization. Structure could include:
-
-- Template page hierarchy (e.g., "Meeting Notes Template", "Project Brief Template", "RFC Template")
-- Page tree navigation showing standardized structure
-- Anonymize by using placeholder content in templates
-- Shows standardization approach without revealing actual content
-- Could be a side-by-side comparison of "before" (chaotic) vs "after" (organized)
-
-### Migration Process Flowchart
-
-Diagram documenting your migration process. Include:
-
-- Decision points (e.g., "Content type?" → "Migrate automatically" vs "Manual review needed")
-- Process stages (Planning → Testing → Pilot → Full Rollout → Validation)
-- Stakeholder touchpoints and approval gates
-- Rollback procedures and contingency paths
-- Use generic labels throughout—this shows process thinking, not specific content
-
-### Testing Plan Excerpt
-
-Table or document showing your testing methodology. Structure:
-
-| Migration Tool | Test Criteria | Timeline | Results | Decision |
-|---------------|--------------|----------|---------|----------|
-| Tool A | Format preservation, link integrity | Week 1-2 | [results] | Selected/Rejected |
-| Tool B | Bulk migration speed | Week 2-3 | [results] | Selected/Rejected |
-
-Anonymize by:
-- Using generic tool names or tool categories
-- Showing your evaluation framework without specific vendor information
-- Demonstrates systematic, data-driven decision making
-
-### Project Timeline Visual
-
-Gantt chart or timeline showing project phases:
-
-- January-April: Initial planning (before your involvement)
-- May: Assessment and architecture design
-- June-July: Accelerated execution
-- August: Final migration and validation
-- Use annotations to highlight your contributions and key milestones
-- Shows project management and timeline compression skills
+<div class="preview-row">
+    <a class="preview-card" href="/assets/pdfs/confluence-plan.pdf" aria-label="Confluence project plan">
+        <img class="preview-img" src="/assets/images/confluence-plan.png" alt="Confluence project plan" />
+    </a>
+    <a class="preview-card" href="/assets/pdfs/confluence-proposal.pdf" aria-label="Confluence proposal">
+        <img class="preview-img" src="/assets/images/confluence-proposal.png" alt="Confluence proposal" />
+    </a>
+    <a class="preview-card" href="/assets/pdfs/migration-plan.pdf" aria-label="Migration testing plan">
+        <img class="preview-img" src="/assets/images/migration-plan.png" alt="Migration testing plan" />
+    </a>
+</div>
