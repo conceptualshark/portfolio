@@ -8,7 +8,7 @@ theme:
   custom_dir: docs/overrides
   icon:
     logo: material/code-braces
-  favicon: /assets/images/logo.png
+  favicon: /assets/images/hero-img.png
 
   palette: 
     - media: "(prefers-color-scheme)"
@@ -89,20 +89,21 @@ nav:
   - Portfolio: 
     - portfolio/index.md
     - Guides:
-        - Camunda 8 Run: portfolio/c8run.md
-        - Git sync for Modeler: portfolio/git-sync.md
-        - Human task orchestration: portfolio/human-task-orchestration.md
-        - Helm chart upgrade: portfolio/helm-upgrade-guide.md
-        - Fides installation: portfolio/fides-installation-guide.md
-        - Fides Privacy Center: portfolio/guide-privacy-center.md
-    - References:
-        - Privacy requests: portfolio/api-privacy-requests.md
-        - Referral API: portfolio/api-referrals.md
-        - Connectors UI: portfolio/guide-connectors.md
+        - Camunda 8 Run: portfolio/guides/c8run.md
+        - Git sync for Modeler: portfolio/guides/git-sync.md
+        - Remote development (Coder): portfolio/guides/coder.md
+        - Fides installation: portfolio/guides/fides-installation-guide.md
+        - Fides Privacy Center: portfolio/guides/guide-privacy-center.md
+    - Process:
+        - Engineering onboarding: portfolio/process/engineering-onboarding.md
+        - Enterprise wiki migration: portfolio/process/wiki-migration.md
+        - Team foundation: portfolio/process/team-documentation.md
     - Concepts:
-        - Privacy regulations: portfolio/article-privacy-regulations.md
-        - Reference architecture: portfolio/reference-architecture.md
-
+        - Privacy regulations: portfolio/concepts/article-privacy-regulations.md
+        - Reference architecture: portfolio/concepts/reference-architecture.md
+    - References:
+        - Privacy requests: portfolio/references/api-privacy-requests.md
+        - Referral API: portfolio/references/api-referrals.md
 
 
 

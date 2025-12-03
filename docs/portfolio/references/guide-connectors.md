@@ -3,7 +3,7 @@ title: "Connectors UI Guide"
 description: "A comprehensive how-to guide for understanding, configuring, and using BeyondTrust's first- and third-party integrations."
 ---
 
-# Connectors UI [Download :fontawesome-solid-file-pdf:](../assets//pdfs/connectors-guide.pdf){ .md-button .md-button--primary }
+# Connectors UI [Download :fontawesome-solid-file-pdf:](../../assets/pdfs/connectors-guide.pdf){ .md-button .md-button--primary }
 
 ## Summary
 
@@ -11,8 +11,8 @@ Following the General Availability launch of a new product, BeyondTrust Support 
 
 ---
 
-![Connectors How-To Guide](../assets/images/connectors-guide.png)
+![Connectors How-To Guide](../../assets/images/connectors-guide.png)
 
 ## Resources
 
-[Formatted PDF](../assets/pdfs/connectors-guide.pdf){ .md-button .md-button--primary }
+[Formatted PDF](../../assets/pdfs/connectors-guide.pdf){ .md-button .md-button--primary }

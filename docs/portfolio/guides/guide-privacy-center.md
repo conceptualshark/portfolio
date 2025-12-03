@@ -21,12 +21,12 @@ For more information on installing and running the Privacy Center, see the Fides
 
 The Fides Privacy Center's text and actions are managed by a `config.json` file, which is located in your project's `/clients/app/config` directory.
 
-1. Copy the provided [`config.json`](../assets/config.json) template.
+1. Copy the provided [`config.json`](../../assets/config.json) template.
 2. Create a `config.json` in your project's `/clients/app/config` directory, and paste the contents of the template.
 
 Running the Privacy Center from this template will result in the following default webpage:
 
-![Default Privacy Center](../assets/images/privacy-center.gif)
+![Default Privacy Center](../../assets/images/privacy-center.gif)
 
 ### Edit the default options
 
