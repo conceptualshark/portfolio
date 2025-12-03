@@ -58,90 +58,26 @@ This project showcased my ability to balance speed with quality, lead technical 
 
 ## Artifacts
 
-### Onboarding Journey Map (Lucidchart)
+The following are anonymized samples of work completed for this project:
 
-Flowchart or swimlane diagram showing the engineer's path through onboarding. Structure:
-
-- **Timeline axis:** Week 1, Week 2, Weeks 3-4, Ongoing
-- **Swimlanes by category:** Account Setup, Environment Configuration, Code & Deploy, Team Integration
-- **Key milestones:** "First commit", "First deployment", "First on-call rotation"
-- **Documentation touchpoints:** Show where docs support each stage
-
-Anonymize by:
-- Using generic task names ("Configure development environment" vs specific internal tool names)
-- Showing process flow without company-specific details
-- Can use icons or color-coding for different activity types
-- Demonstrates information design and user journey thinking
-
-### Documentation Architecture Diagram
-
-Hierarchical diagram showing how onboarding docs are organized. Could include:
-
-```
-Engineering Onboarding (parent)
-├── Getting Started
-│   ├── Week 1 Orientation
-│   ├── Account & Access Setup
-│   └── Team Introductions
-├── Development Environment
-│   ├── Workstation Setup
-│   ├── Local Development
-│   └── Remote Development
-├── Engineering Standards
-│   ├── GitHub Workflows
-│   ├── CI/CD Pipelines
-│   └── Deployment Procedures
-└── Resources & References
-    ├── Troubleshooting
-    └── FAQ
-```
-
-This shows information architecture without revealing content details.
-
-### Before/After Content Audit
-
-Table comparing documentation state before and after your project:
-
-| Category | Before | After | Status |
-|----------|--------|-------|--------|
-| Week 1 Tasks | Scattered across 5 locations | Single consolidated guide | ✓ Complete |
-| Workstation Setup | Outdated (2023), missing tools | Current, comprehensive | ✓ Complete |
-| GitHub Standards | Not documented | Complete guide with examples | ✓ Created |
-| CI/CD Pipeline | High-level only | Step-by-step with troubleshooting | ✓ Enhanced |
-
-Anonymize by:
-- Using category names without specific tool/platform details
-- Showing improvement metrics (word count, completeness %, etc.)
-- Demonstrates project scope and impact
-
-### Project Timeline and Milestones
-
-Gantt chart or timeline visual showing:
-
-- **Week 1:** Assessment, proposal, stakeholder alignment
-- **Week 2:** Information architecture, Jira setup, content audit
-- **Week 3-4:** Content creation, review cycles, publication
-- **Milestones:** Leadership reviews, major deliverable completions
-- **Metrics:** 20+ pages, X hours of work, leadership feedback incorporated
-
-Could include annotations showing where you extended timeline and why.
-
-### Sample Documentation Page (Sanitized)
-
-Screenshot of one polished documentation page. Anonymize by:
-
-- Blurring or replacing company-specific tool names with generic equivalents
-- Showing page structure, formatting, navigation without revealing proprietary info
-- Could show table of contents, code block examples (with dummy code), procedural steps
-- Demonstrates writing quality and docs-as-code formatting (admonitions, tabs, code highlighting)
-- Consider showing a "Workstation Setup" page as it's less proprietary than deployment pipelines
-
-### Jira Epic Structure
-
-Screenshot of Jira showing your project organization (anonymized):
-
-- Epic: "Engineering Onboarding Documentation Overhaul"
-- Stories grouped by theme (Setup, Standards, Resources)
-- Use generic story titles: "Document development environment setup", "Create GitHub workflow guide"
-- Shows project management approach without revealing specific technical content
-- Could blur assignee names and dates if needed
+<div class="preview-row">
+    <a class="preview-card" href="/assets/pdfs/onboarding-proposal.pdf" aria-label="Onboarding proposal">
+        <img class="preview-img" src="/assets/images/onboarding-proposal.png" alt="Onboarding proposal" />
+    </a>
+    <a class="preview-card" href="/assets/pdfs/space-proposal.pdf" aria-label="Organization example">
+        <img class="preview-img" src="/assets/images/space-proposal.png" alt="Organization example" />
+    </a>
+    <a class="preview-card" href="/assets/pdfs/enablement-journey.pdf" aria-label="Enablement diagram">
+        <img class="preview-img" src="/assets/images/enablement-diagram.png" alt="Enablement diagram" />
+    </a>
+        </a>
+    <a class="preview-card" href="/assets/pdfs/onboarding-proposal-2.pdf" aria-label="Organization diagram">
+        <img class="preview-img" src="/assets/images/space-proposal-2.png" alt="Organization diagram" />
+    </a>
+        <a class="preview-card" href="/assets/pdfs/onboarding-project.pdf" aria-label="Onboarding project">
+        <img class="preview-img" src="/assets/images/onboarding-project.png" alt="Onboarding project" />
+    </a>
+        <a class="preview-card" href="/assets/pdfs/onboarding-diagram.pdf" aria-label="Onboarding diagram">
+        <img class="preview-img" src="/assets/images/onboarding-journey.png" alt="Onboarding diagram" />
+    </a>
+</div>
