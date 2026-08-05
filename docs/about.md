@@ -5,13 +5,13 @@ hide:
     - toc
 ---
 
-I'm Cole Isaac, a technical writer and editor based in the northeastern US. My goal is to break complex technical information into clearly communicated content; my passion is developing the human and technical workflows that make good documentation great.
+I'm Cole Isaac Garbo, a technical author working at the intersection of human and agentic workflows. I work across the full documentation stack, crafting strategy, architecture, and systems to keep technical knowledge current and accessible.
 
-In practice, I employ a docs-as-code philosophy to create, manage, and publish documentation for modern platforms, informed by established standards and evolving best practices.
+My formal education ranges from software development to behavioral science, which means I think end-to-end about how documentation systems are built, approached, and consumed. I'm equally at home writing technical guides for developer audiences, organizing information for AI retrieval, or honing the architecture that keeps content surfaced and current.
 
-I have formal education in software development, technical writing, and project organization, with an extensive background in research and behavioral science. This combination positions me to lead modern documentation efforts in an increasingly AI-aware landscape: as a comprehensive content author, a systems and information architect, and a thoughtful strategist, capable of thoughtfully integrating technology into both documentation workflows and user experiences.
+I've built AI tooling for documentation workflows, designed educational programs for engineering teams, and architected knowledge systems for organizations at scale. Content authoring is always at the core, but the systems around it matter just as much.
 
-My work bridges collaboration, education, and technology. Review my [work experience](./resume.md) or [portfolio](./portfolio/index.md) to see these principles in action.
+Review my [work experience](./resume.md) or [portfolio](./portfolio/index.md) to see these principles in action.
 
 <div class="icons" markdown>
 

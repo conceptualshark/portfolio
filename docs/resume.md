@@ -7,7 +7,7 @@ hide:
 
 # Cole Isaac, MSCS [Download :fontawesome-solid-file-pdf:](./assets/pdfs/garbo-cv.pdf){ .md-button .md-button--primary }
 
-A clear communicator with a passion for organization and analysis, culminating in documentation that is accurate, accessible, and effective. Employs a docs-as-code philosophy to author and maintain content for modern documentation platforms.
+Technical author and knowledge architect working at the intersection of human and agentic workflows. Experienced across the full documentation stack, from content strategy and information architecture to AI tooling and systems.
 
 <div id="resume" markdown>
 
