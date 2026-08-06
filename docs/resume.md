@@ -1,5 +1,5 @@
 ---
-title: "Resume | Cole Isaac, MSCS"
+title: "Resume | Cole Isaac Garbo, MSCS"
 description: "Professional experience and technical skills of Cole Isaac, a Staff Technical Writer specializing in documentation engineering and knowledge architecture."
 hide:
     - toc
