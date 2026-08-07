@@ -1,5 +1,5 @@
 ---
-title: Engineering velocity: documentation at organizational scale
+title: "Engineering velocity: documentation at organizational scale"
 description: Scaling a documentation standard across CoreWeave's 11+ engineering departments with a 2-person team
 ---
 
