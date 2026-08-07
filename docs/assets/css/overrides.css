@@ -471,7 +471,7 @@ li img {
 .preview-row {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
     margin: 1rem 0 2rem 0;
