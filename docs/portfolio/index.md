@@ -7,6 +7,13 @@ hide:
 
 <div class="grid cards" markdown>
 
+-   :material-source-commit:{ .lg middle } __Process and planning__
+
+    ---
+    Information architecture and strategy. Enterprise content management; project operations; onboarding systems.
+
+    [:octicons-arrow-right-24: Engineering enablement design](../portfolio/process/engineering-velocity.md)
+
 -   :material-map:{ .lg .middle } __Guides and instructional content__
 
     ---
@@ -14,13 +21,6 @@ hide:
     Documentation designed to guide action. Installation guides; configuration how-tos; step-by-step walkthroughs.
 
     [:octicons-arrow-right-24: Camunda 8 Run installation guide](../portfolio/guides/c8run.md)
-
--   :material-source-commit:{ .lg middle } __Process and planning__
-
-    ---
-    Information architecture and strategy. Enterprise content management; team operations; onboarding systems.
-
-    [:octicons-arrow-right-24: Engineering onboarding design](../portfolio/process/engineering-onboarding.md)
 
 -   :material-puzzle-edit:{ .lg .middle } __Concepts and articles__
 

@@ -88,16 +88,19 @@ nav:
   - Resume: resume.md
   - Portfolio: 
     - portfolio/index.md
+    - Process:
+        - Engineering velocity: portfolio/process/engineering-velocity.md
+        - AI skill library: portfolio/process/ai-skills.md
+        - AI developer tools: portfolio/process/ai-tools-hub.md
+        - Engineering onboarding: portfolio/process/engineering-onboarding.md
+        - Enterprise wiki migration: portfolio/process/wiki-migration.md
+        - Team foundation: portfolio/process/team-documentation.md
     - Guides:
         - Camunda 8 Run: portfolio/guides/c8run.md
         - Git sync for Modeler: portfolio/guides/git-sync.md
         - Remote development (Coder): portfolio/guides/coder.md
         - Fides installation: portfolio/guides/fides-installation-guide.md
         - Fides Privacy Center: portfolio/guides/guide-privacy-center.md
-    - Process:
-        - Engineering onboarding: portfolio/process/engineering-onboarding.md
-        - Enterprise wiki migration: portfolio/process/wiki-migration.md
-        - Team foundation: portfolio/process/team-documentation.md
     - Concepts:
         - Privacy regulations: portfolio/concepts/article-privacy-regulations.md
         - Reference architecture: portfolio/concepts/reference-architecture.md
