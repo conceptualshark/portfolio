@@ -76,8 +76,8 @@ _North Carolina State University_
 - :fontawesome-solid-cloud: Cloud Infrastructures
 - :fontawesome-solid-arrows-spin: Agile Methodologies
 - :material-file-cabinet: CMS (Confluence, Notion)
-- :material-web: Static Site Generators (MkDocs, Docusaurus, Hugo, Jekyll)
-- :material-rocket-launch: Deployment Platforms (Vercel, Netlify, Heroku, Github Pages)
+- :material-web: Static Site Generators (MkDocs, Docusaurus, Hugo, Jekyll, Mintlify)
+- :material-rocket-launch: Deployment Platforms (Vercel, Netlify, GitHub Pages, Cloudflare)
 
 ## Recent work experience
 
